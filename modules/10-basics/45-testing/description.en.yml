@@ -1,0 +1,31 @@
+---
+
+name: How we test your decisions
+theory: |
+
+  Our site automatically checks your decisions. How it works?
+
+  In the simplest case, the system simply runs your code and looks at what was displayed on the screen. And then it checks with what we “expected” on the instructions.
+
+  In the following, more complex lessons, you will write functions — some mini-programs that receive information from the outside world and perform some operations. Checking your decisions in such cases looks a little more difficult: the system starts your decision and transmits some information. The system also knows - “expects” - what kind of answer the correct function should give with such input data.
+
+  For example, if your task is to write a function to add two numbers, then the test system will transfer different combinations of numbers to it and verify the answer of your function with real sums. If in all cases the answers match, then the decision is considered correct.
+
+  This approach is called testing, and it is used in real day-to-day development. Usually, the programmer first writes a test - verification program, and then the program that he wanted to write. In the process, he constantly runs tests and looks to see if he is close to a solution.
+
+  That is why our site says “Tests passed” when you solved the problem correctly.
+
+  Here is a simple example: in one of the future lessons you will need to write a function that performs the calculations and gives the answer. For example, you made a small mistake, and the function returned an incorrect number. The system will respond something like this:
+
+  <pre class = 'hexlet-basics-output'> Fatal error: Uncaught Assert \ InvalidArgumentException: Value "10" does not equal the expected value "35". </ pre>
+
+  The most important thing starts after the colon: “the value of“ 10 ”is not equal to the expected value of“ 35 ”.” That is, the correct function should have yielded 35, but the current solution does not work correctly and yields 10.
+
+instructions: |
+  Display `9780262531962`.
+
+definitions:
+  - name: Tests
+    description: "a special code that checks the program for correctness, verifying the correct result with the real."
+
+tips: []

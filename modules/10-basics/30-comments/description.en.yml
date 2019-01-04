@@ -1,0 +1,47 @@
+---
+
+name: Comments
+theory: |
+
+  Virtually all programming languages ​​allow you to leave comments in the code. They are not used by the interpreter in any way and are necessary only for people: for the programmer to leave notes for himself and for other programmers. Comments in Java come in two forms:
+
+  ** Single line comments ** begin with `//`. After these two characters, any text can follow, the entire line will not be analyzed and executed.
+
+  A comment can occupy the entire line:
+
+  // For Winterfell!
+
+  or it may be on a line after some code:
+
+  `` java
+  println ("I am the King"); // For Lannisters!
+  ```
+
+  **Multi-line comments** begin with `/ *` and end with `* /`.
+
+  `` java
+  / *
+    The night is dark and
+    full of terrors.
+   * /
+  println ("I am the King");
+  ```
+
+instructions: |
+  Create a single line comment with the text: `You know nothing, Jon Snow!`.
+
+tips: []
+
+definitions:
+  - name: Comment
+    description: |
+      Text in the program code that does not affect the functionality and is added by programmers for themselves and their colleagues.
+
+      `// single line comment`
+
+      `` `
+      / *
+       multiline comment
+       multiline comment
+      * /
+      ```

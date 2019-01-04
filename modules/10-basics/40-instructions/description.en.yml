@@ -1,0 +1,41 @@
+---
+
+name: Statements
+theory: |
+  The instruction is a command for the computer. Java code is a set of instructions that are usually separated from each other by the `;`.
+
+  Here is a sample code with two instructions.
+
+  ``java
+  print ("Mother of Dragons.");
+  print ("Dracarys!");
+  ```
+
+  When you run this code, two sentences are displayed sequentially:
+
+  ```
+  Mother of Dragons.Dracarys!
+  ```
+
+  Theoretically, you can write instructions one after the other without transferring to a new line:
+
+  ``java
+  print ("Mother of Dragons."); print ("Dracarys!");
+  ```
+
+  The result on the screen will be the same, but in practice this approach is considered bad.
+
+instructions: |
+  Display one after the other three names: "Robert", "Stannis", "Renly". As a result, the screen should display:
+
+  ```
+  RobertStannisRenly
+  ```
+
+  For each name, use your own "print" call.
+
+tips: []
+
+definitions:
+  - name: statement
+    description: "a computer command written in a programming language. Java code is a set of instructions, separated (most often) by the`; `."
