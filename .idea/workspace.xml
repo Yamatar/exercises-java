@@ -12,19 +12,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.ru.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Functions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,8 +61,9 @@
         <option value="$PROJECT_DIR$/modules/10-basics/45-testing/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/10-basics/30-comments/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/Functions.java" />
         <option value="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.ru.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/Functions.java" />
+        <option value="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.en.yml" />
       </list>
     </option>
   </component>
@@ -77,6 +72,7 @@
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -91,70 +87,6 @@
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="10-basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="10-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="10-hello-world" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="10-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="30-comments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="10-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="40-instructions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="10-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="45-testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="10-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="50-syntax-errors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +96,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546594047360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546594682866" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -227,18 +159,17 @@
       <option name="presentableId" value="Default" />
       <updated>1546508884061</updated>
       <workItem from="1546508887803" duration="4515000" />
-      <workItem from="1546592962230" duration="1080000" />
+      <workItem from="1546592962230" duration="1656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5595000" />
+    <option name="totallyTimeSpent" value="6171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -257,7 +188,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.058346838" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.058346838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,9 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/10-basics/45-testing/index.php" />
     <entry file="file://$PROJECT_DIR$/modules/10-basics/45-testing/Test.php" />
     <entry file="file://$PROJECT_DIR$/modules/10-basics/45-testing/index.jsh">
@@ -453,13 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/45-testing/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/10-basics/description.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -509,20 +430,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Functions.java">
+    <entry file="file://$PROJECT_DIR$/modules/10-basics/45-testing/description.en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
