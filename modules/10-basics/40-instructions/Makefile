@@ -1,3 +1,2 @@
 test:
-	jshell --start PRINTING ./index.jsh
-
+	jshell index.jsh

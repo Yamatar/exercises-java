@@ -1,5 +1,5 @@
 /o PRINTING
-println("Robert");
-println("Stannis");
-println("Renly");
+println("Robert")
+println("Stannis")
+println("Renly")
 /ex
