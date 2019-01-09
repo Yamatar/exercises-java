@@ -26,7 +26,7 @@ instructions: |
 tips: []
 
 definitions:
-  - name: "Syntax error"
-    description: "violation of the grammatical rules of a programming language."
+  - name: "Syntax error"
+    description: "violation of the grammatical rules of a programming language."
   - name: "Parse error (parsing error)"
     description: "the type of errors in Java that occur when there are syntax errors in the code."

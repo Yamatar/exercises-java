@@ -14,7 +14,7 @@ instructions: |
   Type in the code from the task a symbol into a symbol in the editor and click "Check".
 
   ```java
-  println ("Hello, World!")
+  println("Hello, World!")
   ```
 
   Note: if you write `heLLo, woRld!` Instead of `Hello, World!`, Then this will be considered different text, because uppercase and lowercase letters are different characters. The size of the letter is called * register *, and they say: ** the register is important! ** This applies to almost everything in the code, so get used to always pay attention to the register.

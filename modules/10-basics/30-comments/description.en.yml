@@ -10,13 +10,13 @@ theory: |
   A comment can occupy the entire line:
 
   ```java
-  // For Winterfell!
+  //For Winterfell!
   ```
 
   or it may be on a line after some code:
 
   ```java
-  println ("I am the King") // For Lannisters!
+  println("I am the King") // For Lannisters!
   ```
 
   *Multi-line comments** begin with `/*` and end with `*/`. It is customary to begin each line with the character `*`, although technically it is not necessary.
@@ -26,7 +26,7 @@ theory: |
    * The night is dark and
    * full of terrors.
    */
-  println ("I am the King")
+  println("I am the King")
   ```
 
   **Documentary comments** begin with `/**` and end with `*/` and it is already necessary for them to begin each line with the character `*`.

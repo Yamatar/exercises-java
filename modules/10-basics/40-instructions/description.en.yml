@@ -7,8 +7,8 @@ theory: |
   Here is an example code with two instructions:
 
   ```java
-  println ("Mother of Dragons.");
-  println ("Dracarys!");
+  println("Mother of Dragons.");
+  println("Dracarys!");
   ```
 
   When you run this code, two sentences are displayed sequentially:
@@ -21,7 +21,7 @@ theory: |
   Theoretically, you can write instructions one after the other without transferring to a new line:
 
   ```java
-  println ("Mother of Dragons."); println ("Dracarys!");
+  println("Mother of Dragons."); println("Dracarys!");
   ```
 
   The result on the screen will be the same, but in practice this approach is considered bad.
