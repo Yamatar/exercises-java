@@ -5,7 +5,7 @@ theory: |
 
   Virtually all programming languages ​​allow you to leave comments in the code. They are not used by the interpreter in any way and are necessary only for people: for the programmer to leave notes for himself and for other programmers. Comments in Java are of three types:
 
-  ** Single line comments ** begin with `//`. After these two characters, any text can follow, the entire line will not be analyzed and executed.
+  **Single line comments** begin with `//`. After these two characters, any text can follow, the entire line will not be analyzed and executed.
 
   A comment can occupy the entire line:
 

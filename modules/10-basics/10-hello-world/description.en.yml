@@ -4,9 +4,9 @@ name: Hello World!
 theory: |
   By tradition, let's start by writing the program 'Hello, World!'. This program will display the text:
 
-  `` `
+  ```
   Hello, World!
-  `` `
+  ```
 
   To display something on the screen, you need to give the computer a special command. In Java, this command is `println`.
 
