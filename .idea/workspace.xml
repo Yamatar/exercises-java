@@ -2,29 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8b67be-e08d-4f19-b4d4-85718a15925a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/index.jsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/index.jsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/index.jsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/index.jsh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/index.jsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,24 +56,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/Index.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Functions.java">
+        <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -72,57 +81,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/10-basics/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/45-testing/Index.java" />
-        <option value="$PROJECT_DIR$/modules/10-basics/45-testing/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/10-basics/45-testing/Makefile" />
-        <option value="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/Index.java" />
-        <option value="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/Makefile" />
-        <option value="$PROJECT_DIR$/modules/10-basics/40-instructions/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/45-testing/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/45-testing/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/20-comments/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/30-comments/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/40-instructions/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/Index.java" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/25-operator/Index.java" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/25-operator/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/Index.java" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/30-composition/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/30-composition/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/30-composition/Index.java" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/40-priority/Index.java" />
         <option value="$PROJECT_DIR$/modules/20-arithmetics/40-priority/index.jsh" />
         <option value="$PROJECT_DIR$/modules/20-arithmetics/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/Index.java" />
         <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/index.jsh" />
         <option value="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/25-strings/15-escape-characters/Index.java" />
-        <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/Index.java" />
         <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/index.jsh" />
         <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/Index.java" />
         <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/25-strings/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/25-strings/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Index.java" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/50-weak-typing/description.ru.yml" />
         <option value="$PROJECT_DIR$/src/main/java/Functions.java" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Index.java" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/27-data-types/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/10-definition/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/10-definition/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/10-definition/Index.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/10-definition/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/30-variables/15-expressions/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/15-expressions/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/15-expressions/Index.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/15-expressions/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/18-concatenation/Index.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/18-concatenation/index.jsh" />
       </list>
     </option>
   </component>
@@ -137,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -144,58 +154,6 @@
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="20-arithmetics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="20-arithmetics" type="462c0819:PsiDirectoryNode" />
-              <item name="40-priority" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="25-strings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="25-strings" type="462c0819:PsiDirectoryNode" />
-              <item name="10-quotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="25-strings" type="462c0819:PsiDirectoryNode" />
-              <item name="15-escape-characters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="25-strings" type="462c0819:PsiDirectoryNode" />
-              <item name="20-concatenation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="25-strings" type="462c0819:PsiDirectoryNode" />
-              <item name="30-encoding" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
@@ -219,31 +177,30 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547112592894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547460354067" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/30-variables/18-concatenation" />
+      <recent name="$PROJECT_DIR$/modules/30-variables/15-expressions" />
+      <recent name="$PROJECT_DIR$/modules/30-variables/10-definition" />
+      <recent name="$PROJECT_DIR$/modules/27-data-types" />
+      <recent name="$PROJECT_DIR$/modules/27-data-types/55-type-conversion" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules" />
       <recent name="$PROJECT_DIR$/modules/20-arithmetics" />
       <recent name="$PROJECT_DIR$/modules/10-basics/40-instructions" />
       <recent name="$PROJECT_DIR$/modules/10-basics/30-comments" />
       <recent name="$PROJECT_DIR$/modules/10-basics" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/25-strings/30-encoding" />
-      <recent name="$PROJECT_DIR$/modules/25-strings/20-concatenation" />
-      <recent name="$PROJECT_DIR$/modules/25-strings/15-escape-characters" />
-      <recent name="$PROJECT_DIR$/modules/25-strings/10-quotes" />
-      <recent name="$PROJECT_DIR$/modules/20-arithmetics/45-linting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,18 +248,18 @@
       <workItem from="1546508887803" duration="4515000" />
       <workItem from="1546592962230" duration="2785000" />
       <workItem from="1547031446827" duration="4592000" />
-      <workItem from="1547111954146" duration="482000" />
+      <workItem from="1547111954146" duration="835000" />
+      <workItem from="1547441939959" duration="6707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12374000" />
+    <option name="totallyTimeSpent" value="19434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3263328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22374798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,7 +268,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.048622366" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.110210694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,233 +294,33 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/40-priority/Makefile">
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Test.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/40-priority/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/40-priority/index.php" />
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/40-priority/index.jsh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/45-linting/description.ru.yml">
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/45-linting/description.en.yml" />
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/Test.php" />
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/Test.php">
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/Test.php" />
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/10-hello-world/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/10-hello-world/index.jsh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/10-hello-world/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/20-tags/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/30-comments/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/40-instructions/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/40-instructions/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/45-testing/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/45-testing/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/index.php" />
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/index.jsh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="75" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/15-escape-characters/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/15-escape-characters/index.jsh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/15-escape-characters/index.php" />
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/15-escape-characters/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/index.php" />
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/index.jsh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="52" column="272" selection-start-line="52" selection-start-column="272" selection-end-line="52" selection-end-column="272" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/index.php">
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="17" />
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,20 +331,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/Index.java">
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.jsh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="520" column="17" selection-start-line="520" selection-start-column="17" selection-end-line="520" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Functions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/27-data-types/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/Test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/Test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/35-heredoc/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/35-heredoc/Test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/Test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="134" column="90" lean-forward="true" selection-start-line="134" selection-start-column="90" selection-end-line="134" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="59" />
         </state>
       </provider>
     </entry>

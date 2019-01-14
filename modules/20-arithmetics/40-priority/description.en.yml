@@ -6,7 +6,7 @@ theory: |
 
   It's `6`.
 
-  If you thought it's `8`, then this lesson is for you ;-) In primary school you've learned about operation priority. Priority defines the order of operations in complex expressions. For example, multiplication and division have higher priority than addition or division, while taking a power has higher priority than anything else. So, 2<sup>3</sup> * 2 is `16`.
+  If you thought it's `8`, then this lesson is for you ;-) In primary school you've learned about operation priority. Priority defines the order of operations in complex expressions. For example, multiplication and division have higher priority than addition or division. So, 2 + 3 * 2 is `8`.
 
   But sometimes we want different, non-standard order. Just like in math, we can use brackets to change the order, like so: `(2 + 2) * 2`.
 

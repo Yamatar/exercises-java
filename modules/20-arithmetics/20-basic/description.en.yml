@@ -13,7 +13,7 @@ theory: |
 
   Arithmetic in programming is practically no different from school arithmetic.
 
-  A line of code `3 + 4;` forces the interpreter to add up the numbers and find out the result. This program will work, but it does not make sense, because as a matter of fact ** we do not give the command ** to the interpreter, we just say “look, the sum of three and four”. In real work it is not enough to inform the interpreter about the mathematical expression. For example, when creating an online store, it is not enough to ask the interpreter to calculate the cost of the goods in the basket, but you need to ask to calculate the cost **AND** to show the price to the buyer.
+  A line of code `3 + 4;` means command to add numbers and find out the result. This program will work, but it does not make sense, because as a matter of fact ** we do not give the command ** to the interpreter, we just say “look, the sum of three and four”. In real work it is not enough to inform the interpreter about the mathematical expression. For example, when creating an online store, it is not enough to ask the interpreter to calculate the cost of the goods in the basket, but you need to ask to calculate the cost **AND** to show the price to the buyer.
 
   We need to ask the interpreter to add `3 + 4` **And** give the command to do something with the result. For example, display it on the screen:
 

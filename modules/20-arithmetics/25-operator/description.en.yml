@@ -11,7 +11,7 @@ theory: |
 
   In this example, `+` is an operator, and the numbers `8` and` 2` are **operands**.
 
-  In the case of addition, we have two operands: one to the left, the other to the right of the `+` sign. Operations that require two operands are called **binary**. If you skip at least one operand, for example, like `3 +;`, then the program will end with a syntax error.
+  In the case of addition, we have two operands: one to the left, the other to the right of the `+` sign. Operations that require two operands are called **binary**. If you skip at least one operand, for example, like `3 +;`, then the program will not start because it will contain a syntax error.
 
   Operations are not only binary, but also unary (with one operand) and even ternary (with three operands)! Moreover, operators may look the same, but denote different operations.
 

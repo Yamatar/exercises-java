@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Functions {
+    public static void main(String[] args) {
+        System.out.println((int) 3);
+    }
     public static boolean isLannisterSoldier(String color, String shield) {
         return ("red".equals(color) && shield == null) || ("lion".equals(shield));
     }
