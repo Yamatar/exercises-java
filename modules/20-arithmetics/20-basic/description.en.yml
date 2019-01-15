@@ -13,9 +13,9 @@ theory: |
 
   Arithmetic in programming is practically no different from school arithmetic.
 
-  A line of code `3 + 4;` means command to add numbers and find out the result. This program will work, but it does not make sense, because as a matter of fact ** we do not give the command ** to the interpreter, we just say “look, the sum of three and four”. In real work it is not enough to inform the interpreter about the mathematical expression. For example, when creating an online store, it is not enough to ask the interpreter to calculate the cost of the goods in the basket, but you need to ask to calculate the cost **AND** to show the price to the buyer.
+  Line code `3 + 4;` means the command to add the numbers and find out the result. This program will work, but it does not make sense, because as a matter of fact **we do not give any command**, we simply show “the sum of three and four”. In real work, it is not enough to simply report a mathematical expression. For example, when creating an online store, it is not enough just to calculate the cost of goods in the basket, but you also need to calculate the cost **AND** to show the price to the buyer.
 
-  We need to ask the interpreter to add `3 + 4` **And** give the command to do something with the result. For example, display it on the screen:
+  We need to add `3 + 4` **And** give the command to do something with the result. For example, display it on the screen:
 
   ```java
   // again, do not forget the semicolon at the end of the line
@@ -44,7 +44,7 @@ theory: |
 
   Sometimes for convenience, we will show in the comments the result of running lines of code like this: `=> RESULT. For example, `// => 4`.
 
-    The first instruction will display `4` (because 8 / 2 is 4), and the second instruction will display 6 (because 3 * 2 is 6).
+  The first instruction will display `4` (because 8 / 2 is 4), and the second instruction will display 6 (because 3 * 2 is 6).
 
 instructions: |
 
