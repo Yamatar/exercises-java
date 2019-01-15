@@ -1,2 +1,3 @@
 test:
-	@ php Test.php
+	jshell --start PRINTING ./index.jsh
+

@@ -2,50 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8b67be-e08d-4f19-b4d4-85718a15925a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.jsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/index.jsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/27-data-types/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/index.jsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/index.jsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/19-naming/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/19-naming/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/19-naming/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/index.jsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/index.jsh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/20-tags/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/Test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/45-linting/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/19-naming/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/19-naming/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/19-naming/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/19-naming/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/19-naming/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/19-naming/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/23-constants/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/23-constants/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/23-constants/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/23-constants/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/24-magic-constants/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/24-magic-constants/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/24-magic-constants/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/24-magic-constants/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/25-interpolation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/25-interpolation/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/25-interpolation/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/25-interpolation/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/30-symbols/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/30-symbols/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/30-symbols/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/30-variables/30-symbols/index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,13 +49,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml">
+        <entry file="file://$PROJECT_DIR$/modules/30-variables/35-heredoc/description.ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="59" />
-            </state>
+            <state relative-caret-position="-204" />
           </provider>
         </entry>
       </file>
@@ -81,23 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/40-priority/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/20-arithmetics/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/Index.java" />
-        <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/15-escape-characters/Index.java" />
-        <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/Index.java" />
-        <option value="$PROJECT_DIR$/modules/25-strings/20-concatenation/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/description.ru.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/Index.java" />
-        <option value="$PROJECT_DIR$/modules/25-strings/30-encoding/index.jsh" />
-        <option value="$PROJECT_DIR$/modules/25-strings/10-quotes/description.en.yml" />
-        <option value="$PROJECT_DIR$/modules/25-strings/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/25-strings/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" />
@@ -111,7 +85,6 @@
         <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Index.java" />
         <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.jsh" />
         <option value="$PROJECT_DIR$/modules/27-data-types/50-weak-typing/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/Functions.java" />
         <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.ru.yml" />
         <option value="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.en.yml" />
@@ -132,6 +105,24 @@
         <option value="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml" />
         <option value="$PROJECT_DIR$/modules/30-variables/18-concatenation/Index.java" />
         <option value="$PROJECT_DIR$/modules/30-variables/18-concatenation/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/30-variables/19-naming/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/19-naming/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/19-naming/Index.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/19-naming/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Index.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/30-variables/23-constants/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/23-constants/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/23-constants/Index.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/23-constants/index.jsh" />
+        <option value="$PROJECT_DIR$/modules/30-variables/25-interpolation/description.ru.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/Functions.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/30-symbols/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/30-symbols/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/30-variables/30-symbols/Index.java" />
+        <option value="$PROJECT_DIR$/modules/30-variables/30-symbols/index.jsh" />
       </list>
     </option>
   </component>
@@ -146,14 +137,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="30-variables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="30-variables" type="462c0819:PsiDirectoryNode" />
+              <item name="23-constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="30-variables" type="462c0819:PsiDirectoryNode" />
+              <item name="35-heredoc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
@@ -182,25 +198,25 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547460354067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547531868866" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/30-variables/18-concatenation" />
-      <recent name="$PROJECT_DIR$/modules/30-variables/15-expressions" />
-      <recent name="$PROJECT_DIR$/modules/30-variables/10-definition" />
-      <recent name="$PROJECT_DIR$/modules/27-data-types" />
-      <recent name="$PROJECT_DIR$/modules/27-data-types/55-type-conversion" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules" />
       <recent name="$PROJECT_DIR$/modules/20-arithmetics" />
       <recent name="$PROJECT_DIR$/modules/10-basics/40-instructions" />
       <recent name="$PROJECT_DIR$/modules/10-basics/30-comments" />
       <recent name="$PROJECT_DIR$/modules/10-basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/30-variables/30-symbols" />
+      <recent name="$PROJECT_DIR$/modules/30-variables/23-constants" />
+      <recent name="$PROJECT_DIR$/modules/30-variables/20-magic-numbers" />
+      <recent name="$PROJECT_DIR$/modules/30-variables/19-naming" />
+      <recent name="$PROJECT_DIR$/modules/30-variables/18-concatenation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,17 +265,19 @@
       <workItem from="1546592962230" duration="2785000" />
       <workItem from="1547031446827" duration="4592000" />
       <workItem from="1547111954146" duration="835000" />
-      <workItem from="1547441939959" duration="6707000" />
+      <workItem from="1547441939959" duration="8611000" />
+      <workItem from="1547530993113" duration="797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19434000" />
+    <option name="totallyTimeSpent" value="22135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22374798" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.226979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,7 +286,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.110210694" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23176661" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,172 +312,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/index.jsh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/index.jsh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="520" column="17" selection-start-line="520" selection-start-column="17" selection-end-line="520" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/50-weak-typing/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Functions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="48" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/index.jsh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/Test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/Test.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/30-variables/35-heredoc/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
@@ -467,9 +321,7 @@
     <entry file="file://$PROJECT_DIR$/modules/30-variables/35-heredoc/Test.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/Test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/Test.php" />
     <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/description.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -487,13 +339,7 @@
     <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/index.php" />
     <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/index.jsh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -532,20 +378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/index.php" />
     <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -563,6 +396,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/index.php" />
+    <entry file="file://$PROJECT_DIR$/modules/10-basics/10-hello-world/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/Index.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -570,18 +423,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/index.php">
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/description.en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="278">
+          <caret line="23" column="170" selection-start-line="23" selection-start-column="170" selection-end-line="23" selection-end-column="170" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml">
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/description.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="59" />
+        <state relative-caret-position="368">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="32" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/index.php" />
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/19-naming/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/20-magic-numbers/index.php" />
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/20-magic-numbers/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="16" column="118" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/23-constants/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/23-constants/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/23-constants/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/23-constants/index.php" />
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/23-constants/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/23-constants/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/24-magic-constants/description.ru.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/25-interpolation/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/index.jsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/30-symbols/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="8" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/30-variables/35-heredoc/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
       </provider>
     </entry>
   </component>
