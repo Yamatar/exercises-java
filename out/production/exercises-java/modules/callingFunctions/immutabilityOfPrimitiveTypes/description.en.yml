@@ -1,0 +1,55 @@
+---
+
+name: Immutability and primitive types
+theory: |
+
+  Consider the `Math.round` function, which rounds a fraction to an integer:
+
+  ```java
+
+  double number = 7.7
+  double newNumber = Math.round (number);
+
+  System.out.print (newNumber);
+  ```
+
+  The number `8` is displayed.
+
+  But what will be displayed if you call `System.out.print(number);`? The old value is displayed: `7.7`.
+
+  The `Math.round` function returned *new* data, but did not change the data passed to it. She could not do this physically, because ** primitive types in Java are immutable **.
+
+  *(Recall that primitive types are simple types that are built into the programming language itself: for example, a number).*
+
+  In future lessons and tasks we will use both eigenfunctions and functions from the standard library, but no functions will be able to change the data of primitive types.
+
+  The number `7.7` is the value of the `number` variable, and the number itself cannot be changed. But a variable is called a variable, because its value can *be replaced by another value*.
+
+  That is, we can write:
+
+  ```java
+  double number = 7.7
+  number = Math.round (number);
+
+  System.out.print (number);
+  ```
+
+  First, a single value is written to the variable, and then a new value is written to the same variable instead of the previous value: the one that returns the call `Math.round(number)`.
+
+  The number `number = Math.round(number);` can be read like this: *“write to the variable` number` what will return the call of the function `Math.round` if we pass the current value of the variable `number` into it*.
+
+  We did not change the number, we changed the variable - we wrote a new number in it instead of the old one.
+
+  Changing an existing variable may seem harmless. But in real programs, rewriting a variable becomes a source of problems. The code with variable variables is difficult to understand and analyze: you can never be sure what value a variable will have at some point in time.
+
+  You probably regularly encounter bugs and errors in the applications you use. Many are caused precisely by the abundance of variable variables: such errors are difficult to find and fix.
+
+  The only place where there are no variables in any way is the cycles that we will meet later. In all other places, treat variables as constants - immutable entities. Create variables, set them a value and do not change anymore.
+
+instructions: |
+
+  Translate the string written in the `str` variable to uppercase using the `toUpperCase` function. Write the new value in the same `str` variable.
+
+  It may seem to you that the code is strange. This is a typical example: rewriting variables makes the code less understandable and more confusing.
+
+tips: []

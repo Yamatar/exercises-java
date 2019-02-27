@@ -1,0 +1,125 @@
+---
+
+name: Creating (defining) a function
+theory: |
+
+  It's time to learn how to create your own functions! The code in which the function is created is called the **function definition**.
+
+  Here is the simplest example of a function that prints the “Hello world!” to the console:
+
+  ```java
+  public static void sayHello() {
+    System.out.print("Hello world!");
+  }
+  ```
+  Methods may or may not return values, may be called with or without parameters. The type of data returned is specified when a method is declared - before its name.
+
+  In the example above, the method simply prints to the console and should not return anything, so the return type is void.
+
+  In the method header, first come modifiers that determine under what conditions it is available for a call.
+
+  A method with a public modifier can be called from any class, including that located in an external file. If you want the method to be accessible only inside its class, use the private modifier. There is also a softer variant of access restriction: methods with the protected modifier are available to subclasses of their class and other classes from the same package. The more difficult it is to access the method from the outside, the safer - lower the risk of errors.
+
+  Sometimes it is required to define a member of a class that will be used independently of any object of this class. And you can use it yourself without reference to a specific instance. To create such a member of a class, you need to place the keyword static at the beginning of its declaration before declaring a type. In this case, it becomes available before creating any objects of its class and without reference to any object.
+
+  In order for a Java application to work, it is necessary to declare such a main method in its base class.
+
+  ```java
+  public static void main(String [] args) {
+  }
+  ```
+
+  Let's create our first function. She will have one task: to display the text `Today is: December 5`.
+
+  It is necessary to name the function so that its name is clear from the title. Let's give it the name `showDate`:
+
+  ```java
+  public static void showDate() {
+    String text = "Today is: December 5";
+    System.out.print(text);
+  }
+  ```
+
+  There are only two lines of code in our function, but there can be as many of them as you like. Functions can be considered programs within programs.
+
+  Here is the complete program, with function definition and call:
+
+  ```java
+  public static void main(String[] args) {
+    showDate();
+  }
+
+  public static void showDate() {
+    String text = "Today is: December 5";
+    System.out.print(text);
+  }
+  ```
+
+  <pre class = 'hexlet-basics-output'>Today is: December 5</ pre>
+
+  ---
+
+  We could use a similar function on the website or in any program to display the current date on the screen. But in its current form, the function will not cope with the task, because it always displays `Today is: December 5`.
+
+  Let's improve the function so that it takes a date as an argument and displays it on the screen.
+
+  Define and call our updated function:
+
+  ```java
+  public static void main(String[] args) {
+    showDate("January 29");
+  }
+
+  public static void showDate(String date) {
+    String text = "Today is: December " + date;
+    System.out.print(text);
+  }
+  ```
+
+  <pre class = 'hexlet-basics-output'>Today is: January 29</ pre>
+
+  Now it is clear why we needed parentheses after the function name: *you can* specify the arguments in *. Now our function takes one argument - `text`.
+
+  Note: we do not create the `text` variable, but use it in the function body. Java works like this: the variable itself is created when the call is made and the specified value (in our example, `'January 29'`) is written to this variable.
+
+  Arguments can be called arbitrarily, their names make sense exclusively in the function body.
+
+  ---
+
+  Arguments may be several. In this case, we do the same thing in the function definition as in the call: we simply specify the arguments separated by commas.
+
+  A complete example of defining a function with multiple arguments and calling it:
+
+  ```java
+  public static void main (String [] args) {
+    showDate ("January", "29");
+  }
+
+  public static void showDate (String month, String day) {
+    String text = "Today is: December" + month + "" + day;
+    System.out.print (text);
+  }
+  ```
+
+  <pre class = 'hexlet-basics-output'>Today is: January 29</ pre>
+
+  The main thing is to remember about the order: in what order the arguments are in the definition of the function, in the same order they must be transmitted when calling.
+
+instructions: |
+
+  Implement the `printJaimesLine` function, which takes one argument, a string, and displays a replica on the screen in the format `JAIME: passed_string`.
+
+  How to name a variable that will be an argument - decide for yourself.
+
+  Our system contains code hidden from you. In this exercise, the call to the `printJaimesLine` function is hidden. So we check your decision.
+
+  You do not need to call the function yourself, just **define it**. But for clarity, this is how our system calls it:
+
+  ```java
+  printJaimesLine("Farewell, my friend ...");
+  ```
+  <pre class = 'hexlet-basics-output'>JAIME: Farewell, my friend ...</ pre>
+
+tips:
+   - |
+     [Naming in programming] (https://ru.hexlet.io/blog/posts/naming-in-programming)

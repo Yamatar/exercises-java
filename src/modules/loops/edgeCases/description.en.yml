@@ -1,0 +1,70 @@
+---
+
+name: Border Cases
+theory: |
+
+  The `mysubstr` function that you implemented in the last lesson contains many errors. "But she passed the test!". Yes, but in these checks there were no so-called ** border cases **. The function worked normally with normal arguments, but how will it behave if you pass such lengths to it?
+
+  * `0`
+  * A negative number
+  * Number greater than the actual size of the string
+
+  The `mysubstr` function is not designed for such options. You might think that this is not a problem: the function works under normal conditions, and you simply do not need to pass on to it “bad” arguments. In an ideal world, yes, but in the real world, your code will run in different situations, with different combinations of conditions and data. You can not be sure that the arguments will always be correct, so you need to take into account all cases in the framework of common sense.
+
+  Errors in borderline cases are the most common cause of logical errors in programs. Programmers always forget to take something into account. Such errors often manifest themselves not immediately, and may not lead to visible problems for a long time. The program continues to work, but at some point it appears that there are errors in the results.
+
+  The ability to cope with such errors comes with experience, through constant jambs in the style of “oh, forgot to check for an empty line!”.
+
+  ---
+
+  Let's imagine the extended function `mysubstr`. It takes three arguments: a string, an index, and a length of the extracted substring. The function returns a substring of the specified length starting from the specified index. Call examples:
+
+  ```java
+  String str = "If I look back I am lost";
+  mysubstr(str, 0, 1); // => 'I'
+  mysubstr(str, 3, 6); // => 'I look'
+  ```
+
+  Let's figure out what could go wrong. What ** borderline cases ** worth considering:
+
+  * Negative length of the extracted substring
+  * Negative given index
+  * The specified index goes beyond the boundary of the entire line.
+  * The length of the substring in the amount with the specified index goes beyond the boundary of the entire line
+
+  In the implementation of the function, each border case will be a separate piece of code, most likely implemented with `if`.
+
+  To write the `mysubstr` function and protect against these cases, it is worth writing a separate function that will check the arguments for correctness. Let's do this in the assignment.
+
+instructions: |
+
+  Implement the predicate function `isArgumentsForSubstrCorrect`, which takes three arguments:
+
+  1. line
+  2. index from which to start extraction
+  3. the length of the extracted substring
+
+  The function returns `false` if at least one of the conditions is true:
+
+  * Negative length of the extracted substring
+  * Negative given index
+  * The specified index goes beyond the boundary of the entire line.
+  * The length of the substring in the amount with the specified index goes beyond the boundary of the entire line
+
+  Otherwise, the function returns `true`.
+
+  Don't forget that indexes start with `0`, so the index of the last element is “the length of the string minus 1”.
+
+  Call example:
+
+  ```java
+  String str = "Sansa Stark";
+  isArgumentsForSubstrCorrect(str, -1, 3); // => false
+  isArgumentsForSubstrCorrect(str, 4, 100); // => false
+  isArgumentsForSubstrCorrect(str, 10, 10); // => false
+  isArgumentsForSubstrCorrect(str, 11, 1); // => false
+  isArgumentsForSubstrCorrect(str, 3, 3); // => true
+  isArgumentsForSubstrCorrect(str, 0, 5); // => true
+  ```
+
+tips: []

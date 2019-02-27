@@ -1,0 +1,40 @@
+---
+
+name: Operators
+theory: |
+
+  Before moving on, let's look at the basic terminology. The sign of an operation, such as `+`, is called **operator**. An operator is simply a symbol that performs some operation. As you will learn further, operators are not only arithmetic.
+
+  ```java
+  System.out.print(8 + 2);
+  ```
+
+  In this example, `+` is an operator, and the numbers `8` and` 2` are **operands**.
+
+  In the case of addition, we have two operands: one to the left, the other to the right of the `+` sign. Operations that require two operands are called **binary**. If you skip at least one operand, for example, like `3 +;`, then the program will not start because it will contain a syntax error.
+
+  Operations are not only binary, but also unary (with one operand) and even ternary (with three operands)! Moreover, operators may look the same, but denote different operations.
+
+  ```java
+  System.out.print(-3); // => -3
+  ```
+
+  The above is an example of applying a unary operation to the number `3`. The minus operator before the three tells the interpreter to take the number `3` and find the opposite, that is,` -3`.
+
+  This can be a bit confusing, because `-3` is both a number in itself and an operator with an operand, but programming languages ​​have such a structure.
+
+instructions: |
+
+  Write a program that calculates the difference between `6` and` -81` and displays the answer on the screen.
+
+definitions:
+  - name: "Arithmetic operation"
+    description: "addition, subtraction, multiplication and division."
+  - name: "Operator"
+    description: "special character that creates an operation. For example,` + `creates an addition operation."
+  - name: "Operand"
+    description: "an object that participates in the operation.` 3 * 6`: here 3 and 6 are operands. "
+  - name: "Unary operation"
+    description: "operation with one operand. For example,` -3` is a unary operation to get the number opposite to the number three. "
+  - name: "Binary operation"
+    description: "operation with two operands. For example,` 3 + 9`. "

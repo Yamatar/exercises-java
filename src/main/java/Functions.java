@@ -32,6 +32,10 @@ public class Functions {
         }
     }
 
+    public static String parentFor(String child) throws Exception{
+        return parentFor(child, null);
+    }
+
     public static int calculateDistanceBetweenTowns(String param) throws Exception{
         String[] towns  = param.split("-");
         return calculateDistance(towns[0], towns[1]);

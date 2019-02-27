@@ -1,0 +1,49 @@
+---
+
+name: Environment
+theory: |
+
+  What value will be inside the `result` variable after executing the code?
+
+  ```java
+  public static void main(String[] args) {
+    int age = 5;
+    int result = generate();
+  }
+
+  public static int generate() {
+    return age + 3;
+  }
+  ```
+
+  The correct answer is: the code will fail with an error. Because inside the function there is no variable named `age`, but the function tries to use it.
+
+  The function is an isolated black box. Everything that is defined outside the function has nothing to do with what is defined inside. In the function body there is a program isolated from the external environment (external environment).
+
+  ---
+
+  Consider another example:
+
+  ```java
+  public static void main(String[] args) {
+    int age = 5;
+    int result = generate();
+  }
+
+  public static int generate() {
+    int age = 10;
+    return age + 3;
+  }
+  ```
+
+  In this case, the result will be the number `13`. The external value of `age = 5` does not affect the function code.
+
+instructions: |
+
+  This task is not directly related to the lesson, it is just another useful exercise in working with functions.
+
+   Write a function `getAgeDifference`, which takes two years of birth and returns a string with an age difference in the form` The age difference is 11`.
+
+tips:
+   - |
+  Recall that in Java there is a `Math.abs` function that returns the module of the transferred number: for example, `Math.abs (-12)` will return `12`.

@@ -1,2 +1,0 @@
-test:
-	jshell index.jsh
