@@ -9,14 +9,14 @@ theory: |
 
   Главное правило при работе с датами — хранение и сравнение должно производиться в UTC формате. А вот выводить даты лучше в той зоне, в которой живет пользователь.
 
-  Проверить текущую зону можно функцией `date_default_timezone_get()`. Установить зону функцией `date_default_timezone_set()`.
+  Проверить текущую зону можно функцией `TimeZone.getDefault().toString()`.
 
 instructions: |
 
-  Выведите на экран текущий часовой пояс.
+  Выведите на экран информацию о текущем часовом поясе.
 
 tips:
   - |
-    [Список поддерживаемых временных зон в PHP](http://php.net/manual/ru/timezones.php)
+    [Подробнее о классе TimeZone](https://docs.oracle.com/javase/8/docs/api/java/util/TimeZone.html)
 
 definitions: []

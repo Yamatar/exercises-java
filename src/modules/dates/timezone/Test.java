@@ -1,4 +1,6 @@
-package modules.dates.timestamp;
+package modules.dates.timezone;
+
+import modules.dates.timestamp.App;
 
 class Test {
     public static void main(String[] args) {

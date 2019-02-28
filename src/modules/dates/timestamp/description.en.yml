@@ -1,60 +1,30 @@
 ---
 
-name: Comments
+name: Time
 theory: |
 
-  Virtually all programming languages ​​allow you to leave comments in the code. They are used only for people: for the programmer to leave notes for himself and for other programmers. Comments in Java are of three types:
+  Have you ever thought about how time is stored in a computer? Turning the computer on and off does not affect the clock. It can be concluded that the clock in the computer works by itself.
 
-  **Single line comments** begin with `//`. After these two characters, any text can follow, the entire line will not be analyzed and executed.
+  It really is. The main computer clock is hardware, they live independent lives and have their own battery. When turned on, the computer reads the data of this watch, writes it to its memory and starts counting the time on its own. These watches are called system. Any change in the system clock affects the hardware.
 
-  A comment can occupy the entire line:
+  In most operating systems (Linux, Unix, MacOS), the system time is in the Unix time format. It is defined as the number of seconds since midnight (00:00:00 UTC) on January 1, 1970 (Thursday); time from now is called the “Unix Era” (Unix Epoch). Unix time is represented by an integer number, which increases with each second passed without the need for calculations to determine the year, month, day, hour, or minute for human perception.
 
-  ```java
-  //For Winterfell!
-  ```
-
-  or it may be on a line after some code:
+  The specific date in the Unix time format is called the timestamp. For example, to get the current timestamp in Java, the `System.currentTimeMillis()` function is used.
 
   ```java
-  System.out.print("I am the King") // For Lannisters!
+  System.currentTimeMillis(); // 1532435204
   ```
-
-  *Multi-line comments** begin with `/*` and end with `*/`. It is customary to begin each line with the character `*`, although technically it is not necessary.
-
-  ```java
-  /*
-   * The night is dark and
-   * full of terrors.
-   */
-  System.out.print("I am the King")
-  ```
-
-  **Documentary comments** begin with `/**` and end with `*/` and it is already necessary for them to begin each line with the character `*`.
-
-  Documentary comments, being, in fact, a subline of multi-line, have an additional function - they can be collected using a special javadoc utility and issued as documentation to your code.
 
 instructions: |
-  Create a single line comment with the text: `You know nothing, John Snow!`.
+
+  Implement the `getYear` function, which returns the year passed to the timestamp
+
+  ```java
+  getYear(1532435204); // 2018
+  `` `
+
+  For rounding down, use the function Math.floor(double a).
 
 tips: []
 
-definitions:
-  - name: Comment
-    description: |
-      Text in the program code that does not affect the functionality and is added by programmers for themselves and their colleagues.
-
-      `// Single line comment`
-
-      ```java
-      /*
-       * Multiline
-       * comment
-       */
-      ```
-
-      ```java
-      /**
-       * Documenting
-       * comment
-       */
-      ```
+definitions: []
