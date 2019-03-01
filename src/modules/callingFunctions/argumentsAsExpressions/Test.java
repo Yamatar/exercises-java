@@ -1,7 +1,5 @@
 package modules.callingFunctions.argumentsAsExpressions;
 
-import modules.callingFunctions.call.App;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

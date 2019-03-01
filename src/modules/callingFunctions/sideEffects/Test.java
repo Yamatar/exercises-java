@@ -1,7 +1,5 @@
 package modules.callingFunctions.sideEffects;
 
-import modules.callingFunctions.expression.App;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

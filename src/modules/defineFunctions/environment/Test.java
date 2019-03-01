@@ -1,6 +1,5 @@
 package modules.defineFunctions.environment;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
