@@ -1,3 +1,3 @@
 test:
-	@javac App.java
-	@java -ea Test.java
+	@javac -sourcepath "../../yamatar" App.java Test.java
+	@java -ea -cp .:../../yamatar Test
