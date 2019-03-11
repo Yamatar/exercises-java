@@ -2,192 +2,688 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8b67be-e08d-4f19-b4d4-85718a15925a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/10-basics/30-comments/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/10-basics/40-instructions/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/10-basics/45-testing/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/30-composition/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/30-composition/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/30-composition/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/30-composition/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/30-composition/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/30-composition/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/20-arithmetics/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/10-quotes/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/20-concatenation/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/30-encoding/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/25-strings/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/27-data-types/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/10-definition/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/12-change/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/12-change/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/12-change/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/12-change/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/12-change/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/12-change/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/13-naming/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/13-naming/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/13-naming/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/13-naming/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/13-naming/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/13-naming/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/14-errors/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/14-errors/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/14-errors/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/14-errors/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/14-errors/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/14-errors/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/15-expressions/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/18-concatenation/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/23-constants/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/30-symbols/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/30-variables/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/350-immutability-of-primitive-types/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/350-immutability-of-primitive-types/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/350-immutability-of-primitive-types/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/350-immutability-of-primitive-types/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/350-immutability-of-primitive-types/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/350-immutability-of-primitive-types/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/35-calling-functions/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/100-define/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/100-define/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/100-define/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/100-define/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/100-define/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/100-define/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/150-arguments/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/150-arguments/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/150-arguments/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/150-arguments/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/150-arguments/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/150-arguments/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/300-return/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/300-return/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/300-return/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/300-return/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/300-return/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/350-naming/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/350-naming/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/350-naming/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/350-naming/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/350-naming/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/350-naming/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/400-environment/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/400-environment/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/400-environment/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/400-environment/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/400-environment/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/400-environment/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/40-define-functions/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/10-bool-type/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/10-bool-type/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/10-bool-type/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/10-bool-type/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/10-bool-type/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/10-bool-type/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/15-predicates/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/15-predicates/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/15-predicates/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/15-predicates/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/15-predicates/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/15-predicates/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/20-combine-expressions/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/20-combine-expressions/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/20-combine-expressions/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/20-combine-expressions/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/20-combine-expressions/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/20-combine-expressions/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/25-logical-operators/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/25-logical-operators/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/25-logical-operators/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/25-logical-operators/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/25-logical-operators/assets/lannisters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/25-logical-operators/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/25-logical-operators/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/29-logical-operators-2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/29-logical-operators-2/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/29-logical-operators-2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/29-logical-operators-2/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/29-logical-operators-2/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/30-if/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/30-if/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/30-if/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/30-if/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/30-if/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/30-if/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/40-if-else/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/40-if-else/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/40-if-else/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/40-if-else/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/40-if-else/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/40-if-else/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/50-else-if/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/50-else-if/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/50-else-if/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/50-else-if/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/50-else-if/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/50-else-if/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/60-ternary-operator/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/60-ternary-operator/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/60-ternary-operator/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/60-ternary-operator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/60-ternary-operator/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/60-ternary-operator/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/45-logic/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/10-while/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/10-while/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/10-while/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/10-while/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/10-while/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/10-while/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/20-reverse-string/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/20-reverse-string/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/20-reverse-string/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/20-reverse-string/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/20-reverse-string/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/20-reverse-string/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/25-edge-cases/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/25-edge-cases/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/25-edge-cases/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/25-edge-cases/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/25-edge-cases/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/25-edge-cases/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/27-syntax-sugar/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/27-syntax-sugar/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/27-syntax-sugar/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/27-syntax-sugar/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/27-syntax-sugar/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/27-syntax-sugar/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/31-loops-and-conditions/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/31-loops-and-conditions/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/31-loops-and-conditions/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/31-loops-and-conditions/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/31-loops-and-conditions/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/31-loops-and-conditions/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/32-loops-and-conditions-2/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/32-loops-and-conditions-2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/32-loops-and-conditions-2/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/32-loops-and-conditions-2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/32-loops-and-conditions-2/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/32-loops-and-conditions-2/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/50-mutators/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/50-mutators/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/50-mutators/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/50-mutators/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/50-mutators/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/50-mutators/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/55-return/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/55-return/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/55-return/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/55-return/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/55-return/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/55-return/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/70-for/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/70-for/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/70-for/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/70-for/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/70-for/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/70-for/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/50-loops/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/10-unicode/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/10-unicode/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/10-unicode/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/10-unicode/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/10-unicode/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/10-unicode/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/40-startwith/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/40-startwith/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/40-startwith/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/40-startwith/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/40-startwith/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/40-startwith/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/60-deep-into-strings/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/10-timestamp/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/10-timestamp/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/10-timestamp/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/10-timestamp/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/10-timestamp/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/10-timestamp/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/20-date/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/20-date/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/20-date/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/20-date/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/20-date/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/20-date/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/40-timezone/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/40-timezone/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/40-timezone/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/40-timezone/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/40-timezone/description.ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/description.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/70-dates/description.ru.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/instructions/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/instructions/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/instructions/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/testing/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/testing/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/testing/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/date/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/date/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/date/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dates/timezone/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timezone/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/boolType/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/boolType/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/boolType/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/predicates/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/predicates/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/predicates/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/mutators/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/mutators/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/encoding/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/encoding/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/encoding/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/quotes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/quotes/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/quotes/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/change/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/change/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/change/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/constants/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/constants/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/constants/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/definition/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/definition/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/definition/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/error/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/error/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/error/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/expressions/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/expressions/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/expressions/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/naming/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/naming/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/naming/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/symbols/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/symbols/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/symbols/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/30-comments/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/30-comments/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/30-comments/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/30-comments/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/40-instructions/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/40-instructions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/40-instructions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/40-instructions/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/40-instructions/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/45-testing/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/45-testing/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/45-testing/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/45-testing/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/45-testing/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timezone/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timezone/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timezone/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timezone/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timezone/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/assets/lannisters.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/description.ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/description.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/description.ru.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -220,12 +716,14 @@
         <counts>
           <entry key="Makefile" value="57" />
           <entry key="java" value="91" />
+          <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="91" />
           <entry key="Makefile" value="57" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -344,18 +842,18 @@
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="drafts" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="35-calling-functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,7 +864,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552286085001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552290307875" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -411,12 +909,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Makefile.test">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modules.basics.comments.App" />
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modules.loops.returnValue.App" />
       <module name="exercises-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modules.basics.comments.*" />
+          <option name="PATTERN" value="modules.loops.returnValue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,12 +922,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modules.loops.returnValue.App" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modules.basics.comments.App" />
       <module name="exercises-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modules.loops.returnValue.*" />
+          <option name="PATTERN" value="modules.10-basics.comments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -525,17 +1023,25 @@
       <workItem from="1551159418777" duration="16780000" />
       <workItem from="1551259659909" duration="12000" />
       <workItem from="1551263099791" duration="1438000" />
-      <workItem from="1552283202407" duration="2849000" />
+      <workItem from="1552283202407" duration="4535000" />
     </task>
+    <task id="LOCAL-00001" summary="Убрал везде названия пакетов">
+      <created>1552286337487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552286337487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99998000" />
+    <option name="totallyTimeSpent" value="101684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="705" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.28513733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.28513733" />
       <window_info id="Structure" order="1" sideWeight="0.5040816" side_tool="true" weight="0.23216188" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,14 +1049,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32789558" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.52202284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.776509" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.46166396" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.16965742" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -604,6 +1110,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Убрал везде названия пакетов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал везде названия пакетов" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java">
