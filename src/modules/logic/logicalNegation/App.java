@@ -1,5 +1,3 @@
-package modules.logic.logicalNegation;
-
 import main.java.Functions;
 
 public class App {

@@ -1,5 +1,3 @@
-package modules.arithmetics.priority;
-
 import java.io.*;
 
 class Test {

@@ -1,5 +1,3 @@
-package modules.loops.mutators;
-
 class Test {
     public static void main(String[] args) {
         String str = "If I look back I am lost";

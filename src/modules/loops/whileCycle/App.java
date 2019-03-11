@@ -1,5 +1,3 @@
-package modules.loops.whileCycle;
-
 public class App {
     public static void printNumbers(int firstNumber) {
         // BEGIN

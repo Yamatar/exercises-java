@@ -1,5 +1,3 @@
-package modules.loops.syntaxSugar;
-
 public class App {
     public static int countChars(String str, char symbol) {
         int index = str.length() - 1;

@@ -1,10 +1,8 @@
-package modules.callingFunctions.argumentsAsExpressions;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 class Test {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
         final var expected = "20";
 
         final ByteArrayOutputStream baos = new ByteArrayOutputStream();

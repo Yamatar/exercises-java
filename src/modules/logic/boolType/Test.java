@@ -1,6 +1,3 @@
-package modules.logic.boolType;
-
-
 class Test {
     public static void main(String[] args){
         assert App.isPensioner(70);

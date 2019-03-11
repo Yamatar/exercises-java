@@ -1,5 +1,3 @@
-package modules.loops.returnValue;
-
 public class App {
     public static boolean doesContain(String str, char symbol) {
         int index = 0;

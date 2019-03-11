@@ -1,5 +1,3 @@
-package modules.dataTypes.primitiveDataTypes;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

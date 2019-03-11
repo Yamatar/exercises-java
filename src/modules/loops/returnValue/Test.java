@@ -1,5 +1,3 @@
-package modules.loops.returnValue;
-
 class Test {
     public static void main(String[] args) {
         assert App.doesContain("Renly", 'R');

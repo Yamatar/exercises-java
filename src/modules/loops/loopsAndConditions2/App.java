@@ -1,5 +1,3 @@
-package modules.loops.loopsAndConditions2;
-
 public class App {
     public static String getEvenNumbersUpTo(int num) {
         int counter = 1;

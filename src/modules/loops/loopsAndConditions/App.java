@@ -1,5 +1,3 @@
-package modules.loops.loopsAndConditions;
-
 public class App {
     public static String shouter(String str) {
         int length = str.length();
@@ -19,7 +17,7 @@ public class App {
             int counterLimit = 100;
 
             while (counter != counterLimit) {
-                result = str;
+                result += str;
                 counter += 1;
             }
         }

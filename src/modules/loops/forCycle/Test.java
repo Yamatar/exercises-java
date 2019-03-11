@@ -1,5 +1,3 @@
-package modules.loops.forCycle;
-
 class Test {
     public static void main(String[] args){
         assert App.sumOfSeries(1, 1) == 1;

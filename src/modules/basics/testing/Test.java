@@ -1,5 +1,3 @@
-package modules.basics.testing;
-
 import java.io.*;
 
 class Test {

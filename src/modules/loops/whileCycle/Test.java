@@ -1,5 +1,3 @@
-package modules.loops.whileCycle;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

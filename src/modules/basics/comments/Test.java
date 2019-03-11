@@ -1,6 +1,3 @@
-package modules.basics.comments;
-
-
 import java.io.*;
 
 class Test {

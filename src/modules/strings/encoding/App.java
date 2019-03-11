@@ -1,5 +1,3 @@
-package modules.strings.encoding;
-
 public class App {
     public static void main(String[] args) {
         System.out.print((char) 126);

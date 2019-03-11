@@ -1,5 +1,3 @@
-package modules.strings.encoding;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

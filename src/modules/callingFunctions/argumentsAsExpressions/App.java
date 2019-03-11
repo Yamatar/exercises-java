@@ -1,7 +1,3 @@
-package modules.callingFunctions.argumentsAsExpressions;
-
-import main.java.Functions;
-
 public class App {
     public static void main(String[] args) throws Exception {
         String from = "The Twins";

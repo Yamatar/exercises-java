@@ -1,5 +1,3 @@
-package modules.basics.syntaxErrors;
-
 import java.io.*;
 
 class Test {

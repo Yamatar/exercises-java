@@ -1,5 +1,3 @@
-package modules.logic.ifOperator;
-
 public class App {
     // BEGIN
     public static String getSentenceTone(String sentence)

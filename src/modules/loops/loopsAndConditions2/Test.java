@@ -1,5 +1,3 @@
-package modules.loops.loopsAndConditions2;
-
 class Test {
     public static void main(String[] args) {
         assert "2,4,6,8,".equals(App.getEvenNumbersUpTo(9));

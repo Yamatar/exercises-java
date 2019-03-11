@@ -1,5 +1,3 @@
-package modules.strings.concatenation;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

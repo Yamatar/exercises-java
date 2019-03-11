@@ -1,5 +1,3 @@
-package modules.variables.concatenation;
-
 import java.io.*;
 
 class Test {

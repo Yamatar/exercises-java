@@ -1,5 +1,3 @@
-package modules.loops.reverseString;
-
 class Test {
     public static void main(String[] args) {
         assert "got".equals(App.mysubstr("got", 3));

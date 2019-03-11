@@ -1,6 +1,3 @@
-package modules.basics.helloWorld;
-
-
 import java.io.*;
 
 class Test {

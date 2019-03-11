@@ -1,5 +1,3 @@
-package modules.variables.naming;
-
 public class App {
     public static void main(String[] args) {
         double firstNumber = 1.10;

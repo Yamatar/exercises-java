@@ -1,5 +1,3 @@
-package modules.loops.reverseString;
-
 public class App {
     // BEGIN
     public static String mysubstr(String str, int length)

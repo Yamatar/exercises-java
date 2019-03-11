@@ -2,422 +2,192 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8b67be-e08d-4f19-b4d4-85718a15925a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/comments/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/comments/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/comments/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/instructions/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/instructions/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/instructions/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/instructions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/instructions/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/testing/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/testing/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/testing/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/testing/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/basics/testing/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/boolType/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/boolType/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/boolType/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/boolType/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/predicates/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/predicates/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/predicates/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/predicates/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/mutators/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/mutators/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/mutators/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/mutators/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/encoding/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/encoding/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/encoding/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/encoding/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/encoding/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/quotes/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/quotes/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/quotes/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/quotes/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/strings/quotes/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/change/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/change/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/change/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/change/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/change/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/constants/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/constants/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/constants/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/constants/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/constants/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/definition/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/definition/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/definition/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/definition/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/definition/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/error/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/error/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/error/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/error/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/error/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/expressions/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/expressions/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/expressions/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/expressions/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/expressions/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/naming/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/naming/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/naming/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/naming/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/naming/description.ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/symbols/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/symbols/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/symbols/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/symbols/description.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/variables/symbols/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/10-hello-world/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/10-hello-world/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/10-hello-world/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/30-comments/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/30-comments/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/30-comments/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/40-instructions/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/description.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/description.ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/20-basic/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/20-basic/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/20-basic/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/20-basic/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/20-basic/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/25-operator/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/25-operator/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/25-operator/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/25-operator/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/25-operator/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/27-commutativity/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/27-commutativity/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/27-commutativity/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/27-commutativity/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/27-commutativity/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/30-composition/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/30-composition/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/30-composition/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/30-composition/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/30-composition/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/40-priority/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/40-priority/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/40-priority/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/40-priority/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/40-priority/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/20-arithmetics/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/10-quotes/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/10-quotes/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/10-quotes/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/10-quotes/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/10-quotes/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/15-escape-characters/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/15-escape-characters/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/15-escape-characters/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/15-escape-characters/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/15-escape-characters/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/20-concatenation/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/20-concatenation/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/20-concatenation/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/20-concatenation/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/20-concatenation/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/30-encoding/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/30-encoding/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/30-encoding/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/30-encoding/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/30-encoding/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/25-strings/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/40-primitive-data-types/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/40-primitive-data-types/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/40-primitive-data-types/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/40-primitive-data-types/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/40-primitive-data-types/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/55-type-conversion/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/55-type-conversion/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/55-type-conversion/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/55-type-conversion/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/55-type-conversion/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/27-data-types/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/10-definition/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/10-definition/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/10-definition/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/10-definition/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/10-definition/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/15-expressions/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/15-expressions/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/15-expressions/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/15-expressions/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/15-expressions/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/18-concatenation/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/18-concatenation/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/18-concatenation/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/18-concatenation/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/18-concatenation/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/19-naming/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/19-naming/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/19-naming/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/19-naming/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/19-naming/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/20-magic-numbers/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/20-magic-numbers/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/20-magic-numbers/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/20-magic-numbers/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/20-magic-numbers/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/23-constants/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/23-constants/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/23-constants/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/23-constants/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/23-constants/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/30-symbols/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/30-symbols/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/30-symbols/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/30-symbols/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/30-symbols/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/30-variables/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/40-instructions/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/40-instructions/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/40-instructions/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/40-instructions/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/40-instructions/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/45-testing/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/45-testing/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/45-testing/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/45-testing/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/45-testing/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/50-syntax-errors/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/50-syntax-errors/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/50-syntax-errors/description.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/50-syntax-errors/description.ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/50-syntax-errors/index.jsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/AppComments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/basic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/commutativity/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/composition/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/composition/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/operator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/operator/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/arithmetics/priority/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/arithmetics/priority/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/comments/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/comments/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/helloWorld/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/helloWorld/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/instructions/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/instructions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/instructions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/instructions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/syntaxErrors/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/testing/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/testing/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/basics/testing/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/basics/testing/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/call/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/call/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/expression/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionSignature/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/functionsAsArguments/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/primitiveDataTypes/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dataTypes/typeConversion/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/date/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/date/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/date/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/date/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timestamp/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timestamp/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dates/timezone/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dates/timezone/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/arguments/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/define/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/define/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/environment/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/naming/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/defineFunctions/returnValue/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/boolType/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/boolType/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/boolType/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/boolType/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/combineExpressions/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/elseIf/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/elseIf/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifElse/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifElse/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ifOperator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ifOperator/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalNegation/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/predicates/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/predicates/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/predicates/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/predicates/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/mutators/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/mutators/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/concatenation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/concatenation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/encoding/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/encoding/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/encoding/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/encoding/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/quotes/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/quotes/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/strings/quotes/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/strings/quotes/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/change/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/change/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/change/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/change/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/concatenation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/concatenation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/constants/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/constants/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/constants/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/constants/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/definition/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/definition/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/definition/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/definition/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/error/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/error/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/error/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/error/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/expressions/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/expressions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/expressions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/expressions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/naming/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/naming/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/naming/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/naming/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/symbols/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/symbols/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/variables/symbols/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/variables/symbols/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -426,18 +196,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1867988237">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="5" />
+          <entry key="class" value="1" />
+          <entry key="java" value="141" />
+          <entry key="jpg" value="1" />
+          <entry key="yml" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="141" />
+          <entry key="Makefile" value="5" />
+          <entry key="YAML" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Makefile" value="57" />
+          <entry key="java" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="91" />
+          <entry key="Makefile" value="57" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/description.ru.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -457,64 +258,70 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/logic/logicalOperators/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/logic/logicalOperators2/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/logic/logicalOperators2/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/logic/predicates/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/logic/predicates/App.java" />
         <option value="$PROJECT_DIR$/src/modules/logic/ternaryOperator/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/forCycle/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/forCycle/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/20-reverse-string/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/20-reverse-string/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/reverseString/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/30-edge-cases/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/30-edge-cases/description.en.yml" />
+        <option value="$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/edgeCases/App.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/40-syntax-sugar/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/40-syntax-sugar/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/31-loops-and-conditions/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/31-loops-and-conditions/description.en.yml" />
+        <option value="$PROJECT_DIR$/src/modules/loops/forCycle/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/forCycle/Test.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/index.php" />
         <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/mutators/App.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/mutators/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/mutators/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/10-unicode/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/returnValue/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/returnValue/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/mutators/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/loops/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/description.en.yml" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/70-dates/10-timestamp/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/basics/comments/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/description.ru.yml" />
-        <option value="$PROJECT_DIR$/src/modules/deepIntoStrings/description.en.yml" />
+        <option value="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/whileCycle/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/concatenation/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/concatenation/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/encoding/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/encoding/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/quotes/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/strings/quotes/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/change/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/change/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/concatenation/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/concatenation/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/constants/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/constants/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/definition/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/definition/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/error/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/error/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/expressions/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/expressions/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/naming/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/naming/Test.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/symbols/App.java" />
+        <option value="$PROJECT_DIR$/src/modules/variables/symbols/Test.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -525,6 +332,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -535,47 +344,29 @@
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
+              <item name="drafts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-              <item name="comments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="deepIntoStrings" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551264452233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552286085001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -585,12 +376,12 @@
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/modules" />
-      <recent name="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes" />
-      <recent name="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects" />
-      <recent name="$PROJECT_DIR$/src/modules/callingFunctions" />
-      <recent name="$PROJECT_DIR$/src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/variables/symbols" />
+      <recent name="$PROJECT_DIR$/src/modules/variables/naming" />
+      <recent name="$PROJECT_DIR$/src/modules/variables/magicNumbers" />
+      <recent name="$PROJECT_DIR$/src/modules/variables/expressions" />
+      <recent name="$PROJECT_DIR$/src/modules/variables/error" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="modules.dates.timestamp" />
@@ -599,12 +390,12 @@
       <recent name="modules.loops.returnValue" />
       <recent name="modules.loops.mutators" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/modules/deepIntoStrings" />
-      <recent name="$PROJECT_DIR$/src/modules/dates/timestamp" />
-      <recent name="$PROJECT_DIR$/src/modules/deepIntoStrings/startWith" />
-      <recent name="$PROJECT_DIR$/src/modules/loops" />
-      <recent name="$PROJECT_DIR$/src/modules/deepIntoStrings/unicode" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules" />
+      <recent name="$PROJECT_DIR$/src/modules/callingFunctions/immutabilityOfPrimitiveTypes" />
+      <recent name="$PROJECT_DIR$/src/modules/callingFunctions/sideEffects" />
+      <recent name="$PROJECT_DIR$/src/modules/callingFunctions" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -619,7 +410,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Makefile.test">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modules.basics.comments.App" />
       <module name="exercises-java" />
@@ -639,19 +430,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="modules.loops.returnValue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modules.logic.elseIf.App" />
-      <module name="exercises-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modules.logic.elseIf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -685,13 +463,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/src/modules/arithmetics/basic/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.App (4)" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Makefile.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile.test" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -734,17 +525,17 @@
       <workItem from="1551159418777" duration="16780000" />
       <workItem from="1551259659909" duration="12000" />
       <workItem from="1551263099791" duration="1438000" />
+      <workItem from="1552283202407" duration="2849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95751000" />
+    <option name="totallyTimeSpent" value="99998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="705" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.20713525" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.28513733" />
       <window_info id="Structure" order="1" sideWeight="0.5040816" side_tool="true" weight="0.23216188" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -753,17 +544,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.105940595" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52202284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.02970297" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.776509" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16965742" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.24455959" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -809,251 +602,213 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/returnValue/Test.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/returnValue/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/Test.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/index.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Makefile">
+    <entry file="file://$PROJECT_DIR$/src/modules/logic/ternaryOperator/Test.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/30-locales/Makefile" />
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/30-locales/Test.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Makefile">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/edgeCases/Test.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/index.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/edgeCases/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/Test.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions/description.en.yml">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/forCycle/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/forCycle/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions/description.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
+        <state relative-caret-position="-959" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/index.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="116" lean-forward="true" selection-start-line="87" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/returnValue/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/returnValue/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="59" lean-forward="true" selection-start-line="53" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="88" lean-forward="true" selection-start-line="83" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/forCycle/description.en.yml">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/loops/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/30-locales/description.ru.yml" />
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/30-locales/index.php" />
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/20-date/Makefile">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/20-date/Test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/20-date/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/20-date/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/30-mktime/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/30-mktime/Test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/30-mktime/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/30-mktime/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/40-timezone/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/40-timezone/Test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/unicode/App.java">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/description.en.yml">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/mutators/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/App.java">
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/returnValue/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/returnValue/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/reverseString/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/reverseString/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/reverseString/description.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
+        <state relative-caret-position="-582" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="2" selection-end-line="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/whileCycle/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/startWith/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/modules/loops/whileCycle/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dates/timestamp/description.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/basics/comments/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/description.en.yml">
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/concatenation/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/deepIntoStrings/description.ru.yml">
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/concatenation/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="68" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/encoding/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/encoding/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/escapeCharacters/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/escapeCharacters/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="91" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/quotes/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/strings/quotes/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/change/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/change/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/concatenation/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/concatenation/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/constants/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/constants/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/definition/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/definition/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/error/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/error/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/error/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/error/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/expressions/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/expressions/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/magicNumbers/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/magicNumbers/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/naming/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/naming/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/symbols/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/callingFunctions/argumentsAsExpressions/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/variables/symbols/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

@@ -1,5 +1,3 @@
-package modules.callingFunctions.functionsAsArguments;
-
 import main.java.Functions;
 
 public class App {

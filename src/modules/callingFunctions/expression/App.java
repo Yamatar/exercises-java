@@ -1,5 +1,3 @@
-package modules.callingFunctions.expression;
-
 import main.java.Functions;
 
 public class App {

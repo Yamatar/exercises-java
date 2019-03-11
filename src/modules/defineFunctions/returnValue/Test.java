@@ -1,5 +1,3 @@
-package modules.defineFunctions.returnValue;
-
 class Test {
     public static void main(String[] args) throws Exception{
         final var expected = "35";

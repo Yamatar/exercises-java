@@ -1,5 +1,3 @@
-package modules.variables.concatenation;
-
 public class App {
     public static void main(String[] args) {
         String info = "We couldn't verify you mother's maiden name.";

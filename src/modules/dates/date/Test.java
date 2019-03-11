@@ -1,5 +1,3 @@
-package modules.dates.date;
-
 class Test {
     public static void main(String[] args) {
         assert App.getCustomDate(1532435204).equals("18/01/1970");

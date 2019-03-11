@@ -1,5 +1,3 @@
-package modules.arithmetics.commutativity;
-
 import java.io.*;
 
 class Test {

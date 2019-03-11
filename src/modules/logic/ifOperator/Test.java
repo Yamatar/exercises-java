@@ -1,5 +1,3 @@
-package modules.logic.ifOperator;
-
 class Test {
     public static void main(String[] args){
         assert "normal".equals(App.getSentenceTone("normal"));

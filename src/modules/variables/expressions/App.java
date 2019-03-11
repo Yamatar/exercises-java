@@ -1,5 +1,3 @@
-package modules.variables.expressions;
-
 public class App {
     public static void main(String[] args) {
         double euros = 100;

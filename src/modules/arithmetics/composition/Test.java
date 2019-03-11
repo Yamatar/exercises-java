@@ -1,5 +1,3 @@
-package modules.arithmetics.composition;
-
 import java.io.*;
 
 class Test {

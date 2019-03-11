@@ -1,5 +1,3 @@
-package modules.logic.ternaryOperator;
-
 class Test {
     public static void main(String[] args){
         assert "heyhey".equals(App.convertString("hey"));

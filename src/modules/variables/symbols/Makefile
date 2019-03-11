@@ -1,4 +1,3 @@
 test:
-    @javac App.java
-    @java -ea Test.java
-
+	@javac App.java
+	@java -ea Test.java

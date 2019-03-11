@@ -1,5 +1,3 @@
-package modules.logic.ifElse;
-
 class Test {
     public static void main(String[] args){
         assert "https://yandex.ru".equals(App.normalizeUrl("yandex.ru"));

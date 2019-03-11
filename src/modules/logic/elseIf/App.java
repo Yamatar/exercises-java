@@ -1,5 +1,3 @@
-package modules.logic.elseIf;
-
 public class App {
     // BEGIN
     public static String whoIsThisHouseToStarks(String houseName) {

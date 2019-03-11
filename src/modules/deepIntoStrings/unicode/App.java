@@ -1,5 +1,3 @@
-package modules.deepIntoStrings.unicode;
-
 public class App {
     public static String invertCase(String text) {
         // BEGIN

@@ -1,5 +1,3 @@
-package modules.loops.edgeCases;
-
 public class App {
     // BEGIN
     public static boolean isArgumentsForSubstrCorrect(String str, int index, int length) {

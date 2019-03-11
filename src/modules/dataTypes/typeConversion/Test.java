@@ -1,5 +1,3 @@
-package modules.dataTypes.typeConversion;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

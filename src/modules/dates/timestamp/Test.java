@@ -1,5 +1,3 @@
-package modules.dates.timestamp;
-
 class Test {
     public static void main(String[] args) {
         assert App.getYear(1532435204) == 2018;

@@ -1,5 +1,3 @@
-package modules.logic.elseIf;
-
 class Test {
     public static void main(String[] args) throws Exception {
         assert "friend".equals(App.whoIsThisHouseToStarks("Tally"));

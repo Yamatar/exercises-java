@@ -1,5 +1,3 @@
-package modules.defineFunctions.arguments;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

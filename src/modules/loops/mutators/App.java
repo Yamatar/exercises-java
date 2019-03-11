@@ -1,5 +1,3 @@
-package modules.loops.mutators;
-
 public class App {
     public static String filterString(String str, char symbol) {
         int index = 0;
@@ -7,7 +5,7 @@ public class App {
         String result = "";
         while (index < length) {
             char currentChar = str.charAt(index);
-            if (currentChar != currentChar) {
+            if (currentChar != symbol) {
                 result += currentChar;
             }
             index++;

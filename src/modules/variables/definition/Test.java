@@ -1,5 +1,3 @@
-package modules.variables.definition;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

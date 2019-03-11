@@ -1,5 +1,3 @@
-package modules.loops.forCycle;
-
 public class App {
     public static int sumOfSeries(int start, int finish) {
         /*

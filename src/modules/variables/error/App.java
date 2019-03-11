@@ -1,5 +1,3 @@
-package modules.variables.error;
-
 public class App {
     public static void main(String[] args) {
         String family = "Targaryen";

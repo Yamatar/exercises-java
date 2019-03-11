@@ -1,5 +1,3 @@
-package modules.callingFunctions.immutabilityOfPrimitiveTypes;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

@@ -1,6 +1,3 @@
-package modules.callingFunctions.sideEffects;
-
-
 import main.java.Functions;
 
 public class App {

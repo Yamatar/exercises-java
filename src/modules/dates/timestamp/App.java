@@ -1,6 +1,3 @@
-package modules.dates.timestamp;
-
-
 public class App {
     final static int SECONDS_IN_YEAR = 60 * 60 * 24 * 365;
 

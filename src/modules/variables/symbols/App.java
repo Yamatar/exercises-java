@@ -1,5 +1,3 @@
-package modules.variables.symbols;
-
 public class App {
     public static void main(String[] args) {
         String one = "Naharis";

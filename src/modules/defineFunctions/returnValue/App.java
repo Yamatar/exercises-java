@@ -1,5 +1,3 @@
-package modules.defineFunctions.returnValue;
-
 import main.java.Functions;
 
 public class App {

@@ -1,11 +1,9 @@
-package modules.strings.escapeCharacters;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 class Test {
     public static void main(String[] args) {
-        final var expected = "- Did Joffrey agree?\\n- He did. He also said \\\"I love using \\\\n\\\".";
+        final var expected = "- Did Joffrey agree?\n- He did. He also said \"I love using \\n\".";
 
         final ByteArrayOutputStream baos = new ByteArrayOutputStream();
 

@@ -1,5 +1,3 @@
-package modules.dates.date;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
