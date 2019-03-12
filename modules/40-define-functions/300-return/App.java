@@ -1,5 +1,3 @@
-import main.java.Functions;
-
 public class App {
     public static int getParentNamesTotalLength(String child) throws Exception{
         String mother = Functions.parentFor(child, "mother");

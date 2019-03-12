@@ -1,3 +1,3 @@
 test:
-	@javac App.java
-	@java -ea Test.java
+	@javac -sourcepath "../../functions" App.java Test.java
+	@java -ea -cp .:../../functions Test
