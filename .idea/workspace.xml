@@ -3,53 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="fc8b67be-e08d-4f19-b4d4-85718a15925a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/10-hello-world/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/10-hello-world/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/10-basics/10-hello-world/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/30-comments/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/40-instructions/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/45-testing/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/10-basics/50-syntax-errors/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/20-basic/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/25-operator/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/27-commutativity/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/30-composition/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/20-arithmetics/40-priority/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/25-strings/10-quotes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/25-strings/15-escape-characters/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/25-strings/20-concatenation/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/25-strings/30-encoding/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/27-data-types/55-type-conversion/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/10-definition/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/12-change/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/13-naming/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/14-errors/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/15-expressions/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/18-concatenation/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/20-magic-numbers/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/23-constants/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/30-variables/30-symbols/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/100-call/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/100-call/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/350-immutability-of-primitive-types/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/40-define-functions/100-define/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/40-define-functions/150-arguments/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/40-define-functions/300-return/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/40-define-functions/300-return/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/40-define-functions/300-return/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/40-define-functions/300-return/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/45-logic/28-logical-negation/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/yamatar/Functions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/functions/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/description.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/description.ru.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,47 +25,60 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="10" />
-          <entry key="class" value="4" />
-          <entry key="java" value="223" />
+          <entry key="class" value="5" />
+          <entry key="java" value="228" />
           <entry key="jpg" value="1" />
-          <entry key="yml" value="14" />
+          <entry key="yml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="5" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="223" />
+          <entry key="JAVA" value="228" />
           <entry key="Makefile" value="10" />
-          <entry key="YAML" value="14" />
+          <entry key="YAML" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Makefile" value="78" />
-          <entry key="java" value="125" />
-          <entry key="txt" value="70" />
+          <entry key="java" value="241" />
+          <entry key="txt" value="106" />
+          <entry key="yml" value="919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="125" />
+          <entry key="JAVA" value="241" />
           <entry key="Makefile" value="78" />
-          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="YAML" value="919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/description.ru.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="34" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,6 +91,12 @@
     <findStrings>
       <find>при зап</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,15 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/loopsAndConditions2/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/mutators/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/mutators/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/returnValue/App.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/returnValue/Test.java" />
-        <option value="$PROJECT_DIR$/src/modules/loops/reverseString/App.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/reverseString/Test.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/syntaxSugar/App.java" />
         <option value="$PROJECT_DIR$/src/modules/loops/syntaxSugar/Test.java" />
@@ -166,7 +138,6 @@
         <option value="$PROJECT_DIR$/modules/functions/Functions.java" />
         <option value="$PROJECT_DIR$/modules/10-basics/10-hello-world/Makefile" />
         <option value="$PROJECT_DIR$/modules/10-basics/10-hello-world/App.java" />
-        <option value="$PROJECT_DIR$/modules/35-calling-functions/100-call/App.java" />
         <option value="$PROJECT_DIR$/modules/35-calling-functions/150-expression/App.java" />
         <option value="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/Test.java" />
         <option value="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/App.java" />
@@ -174,6 +145,16 @@
         <option value="$PROJECT_DIR$/modules/40-define-functions/300-return/App.java" />
         <option value="$PROJECT_DIR$/modules/45-logic/28-logical-negation/App.java" />
         <option value="$PROJECT_DIR$/modules/45-logic/28-logical-negation/Test.java" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/100-call/App.java" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/100-call/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.ru.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.en.yml" />
+        <option value="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/description.ru.yml" />
       </list>
     </option>
   </component>
@@ -196,6 +177,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,39 +196,25 @@
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="40-define-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="35-calling-functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="40-define-functions" type="462c0819:PsiDirectoryNode" />
-              <item name="300-return" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="35-calling-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="250-functions-as-arguments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552380364252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552478351020" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -255,11 +225,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/modules/10-basics/10-hello-world" />
       <recent name="$PROJECT_DIR$/modules/45-logic/28-logical-negation" />
       <recent name="$PROJECT_DIR$/modules/40-define-functions/300-return" />
       <recent name="$PROJECT_DIR$/modules/35-calling-functions/300-side-effects" />
-      <recent name="$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="modules.dates.timestamp" />
@@ -398,7 +368,9 @@
       <workItem from="1551259659909" duration="12000" />
       <workItem from="1551263099791" duration="1438000" />
       <workItem from="1552283202407" duration="4826000" />
-      <workItem from="1552379110298" duration="1087000" />
+      <workItem from="1552379110298" duration="3519000" />
+      <workItem from="1552414593138" duration="201000" />
+      <workItem from="1552475103992" duration="2329000" />
     </task>
     <task id="LOCAL-00001" summary="Убрал везде названия пакетов">
       <created>1552286337487</created>
@@ -414,36 +386,44 @@
       <option name="project" value="LOCAL" />
       <updated>1552291259307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Исправил модули c Functions">
+      <created>1552380476661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552380476661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103062000" />
+    <option name="totallyTimeSpent" value="108024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="705" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.28917608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.24313408" />
       <window_info id="Structure" order="1" sideWeight="0.5040816" side_tool="true" weight="0.23216188" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789558" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.52202284" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5628059" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.24632953" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.017944535" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52365416" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.24455959" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,51 +471,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Убрал везде названия пакетов" />
     <MESSAGE value="Вернул папку с модулями на место" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вернул папку с модулями на место" />
+    <MESSAGE value="Исправил модули c Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил модули c Functions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/20-arithmetics/40-priority/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/10-quotes/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/15-escape-characters/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/20-concatenation/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/25-strings/30-encoding/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/40-primitive-data-types/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/27-data-types/55-type-conversion/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/12-change/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/10-definition/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/13-naming/description.en.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/13-naming/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/30-variables/14-errors/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/30-variables/15-expressions/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -555,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/40-define-functions/150-arguments/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/40-define-functions/300-return/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/40-define-functions/350-naming/App.java">
@@ -609,9 +577,6 @@
     <entry file="file://$PROJECT_DIR$/modules/50-loops/10-while/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/50-loops/20-reverse-string/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/50-loops/25-edge-cases/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -643,13 +608,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/70-dates/20-date/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/70-dates/40-timezone/App.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -662,6 +621,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/10-basics/10-hello-world/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/40-define-functions/300-return/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/50-loops/20-reverse-string/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/functions/Functions.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/functions/Functions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/100-call/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/100-call/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="108" selection-start-line="58" selection-start-column="108" selection-end-line="58" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/120-function-signature/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/100-call/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="2" lean-forward="true" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/150-expression/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/200-arguments-as-expressions/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="46" lean-forward="true" selection-start-line="34" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/35-calling-functions/250-functions-as-arguments/description.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -1,19 +1,17 @@
 ---
 
-name: Function signature
+name: function signature
 theory: |
 
-  The `indexOf` function, which returns the index in this line of the first occurrence of the specified substring, takes 1 parameter: **which substring to search**. If you call `inexOf` without parameters, Java will produce the following: `no suitable method found for indexOf (no arguments`. We are told that such a function indexOf without parameters does not exist.
+  The `Math.min` function, which returns the minimum number of two, takes 2 parameters. If you call `Math.min` without parameters, Java will display the following: `no suitable method found for Math.min(no arguments)`. We are told that such a function Math.min without parameters does not exist.
 
-  How do we know how many parameters do the `indexOf` functions need and what type of“ return ”will there be? We looked at the **signature** of this function. The signature determines the input parameters and their types, as well as the output parameter and its type. About the function `indexOf` you can read in [official Java documentation] (https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
+  How do we know how many parameters need the `Math.min` function and what type of value does it return? We looked at the ** signature ** of this function. The signature determines the input parameters and their types, as well as the output parameter and its type. You can read about the function `Math.min` in [official Java documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html).
 
   You can pass parameters only in the sequence in which they are defined in the signature.
 
-  Any function always returns only one value. This restriction exists at the language level and cannot be violated.
+  Any function always returns only one value (unless the type of the result is void, then it returns nothing). At the same time, the return value can be of a complex type and represent, for example, a list of some values.
 
 instructions: |
-
-  Now it's your turn to look at the function signature in the documentation and figure out how to use it. You can read the documentation in Russian, but the programmer must be able to read the documentation in English. Use dictionaries or translators if necessary. It is better to immediately get used to and tighten up reading skills in English, otherwise there will be difficulties in the future.
 
   In Java, the String class has a function `concat`. Examine its signature at [https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#concat(java.lang.String]].
 
@@ -23,4 +21,4 @@ tips: []
 
 definitions:
   - name: function signature
-    description: "a formal description of the types of arguments and the returnValue type of the function."
+    description: "a formal description of the types of arguments and the return type of the function."
