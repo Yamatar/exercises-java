@@ -14,12 +14,12 @@ theory: |
 
   ```
   // greeting - переводится как приветствие
-  String greeting = "Father!";
+  var greeting = "Father!";
   System.out.print(greeting);
   System.out.print(greeting);
   ```
 
-  В строчке `String greeting = "Father!"` - происходит присваивание значения `"Father!"` переменной типа String с именем `greeting` .
+  В строчке `var greeting = "Father!"` - происходит присваивание значения `"Father!"` переменной с именем `greeting` .
 
   Когда переменная создана, можно начать её использовать. Она подставляется в те места, где раньше стояла наша фраза. Во время выполнения кода, в строке `System.out.print(greeting)` вместо переменной подставляется её содержимое, а затем выполняется код. В результате вывод нашей программы будет таким:
 
@@ -32,17 +32,17 @@ theory: |
   Количество создаваемых переменных никак не ограничено, большие программы содержат десятки и сотни тысяч имен переменных:
 
   ```java
-  String greeting1 = "Father!";
+  var greeting1 = "Father!";
   System.out.print(greeting1);
   System.out.print(greeting1);
-  String greeting2 = "Mother!";
+  var greeting2 = "Mother!";
   System.out.print(greeting2);
   System.out.print(greeting2);
   ```
   Для удобства анализа программы, переменные принято создавать как можно ближе к тому месту где они используются.
 
 instructions: |
-  Создайте переменную типа String с именем `motto` и содержимым `What Is Dead May Never Die!`. Распечайте содержимое переменной.
+  Создайте переменную с именем `motto` и содержимым `What Is Dead May Never Die!`. Распечайте содержимое переменной.
 
 tips:
   - |

@@ -10,7 +10,7 @@ theory: |
   Начнём писать функцию:
 
   ```java
-  public static String getEvenNumbersUpTo(int num) {
+  static String getEvenNumbersUpTo(int num) {
 
   }
   ```
@@ -24,9 +24,9 @@ theory: |
   Делаем всё как обычно — счётчик, цикл, обновление счётчика:
 
   ```java
-  public static String getEvenNumbersUpTo(int num) {
-    int counter = 1;
-    String result = "";
+  static String getEvenNumbersUpTo(int num) {
+    var counter = 1;
+    var result = "";
 
     while (counter != $num) {
       result +=counter;
@@ -58,9 +58,9 @@ theory: |
   Предикат нужно изменить на *«пока счётчик меньше или равен `num`»*:
 
   ```java
-  public static String getEvenNumbersUpTo(int num) {
-    int counter = 1;
-    String result = "";
+  static String getEvenNumbersUpTo(int num) {
+    var counter = 1;
+    var result = "";
 
     while (counter <= num) {
       result += counter;
@@ -87,8 +87,8 @@ theory: |
 
   ```java
   public static String getEvenNumbersUpTo(int num) {
-    int counter = 1;
-    String result = "";
+    var counter = 1;
+    var result = "";
 
     while (counter <= num) {
       if (counter % 2 == 0) {

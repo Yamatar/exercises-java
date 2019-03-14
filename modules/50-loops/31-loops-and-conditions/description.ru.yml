@@ -12,7 +12,7 @@ theory: |
   Начнём писать функцию:
 
   ```java
-  public static void shouter(String str) {
+  static void shouter(String str) {
 
   }
   ```
@@ -22,8 +22,8 @@ theory: |
   Значит, нужно начать с создания условия:
 
   ```java
-  public static void shouter(String str) {
-    int length = str.length();
+  static void shouter(String str) {
+    var length = str.length();
 
     if (length > 5) {
     }
@@ -41,11 +41,11 @@ theory: |
   Нам нужно 100 повторений, поэтому сделаем счётчик со значением 0 и будем увеличивать его на 1 каждый шаг, и так до тех пор пока счётчик не станет равным 100.
 
   ```java
-  public static void shouter(String str) {
-    int length = str.length();
+  static void shouter(String str) {
+    var length = str.length();
 
     if (length > 5) {
-      int counter = 0;
+      var counter = 0;
       while (counter != 100) {
         System.out.print(str);
         counter += 1;
@@ -67,11 +67,11 @@ theory: |
   А теперь давайте модифицируем функцию так, чтобы она возвращала результат, а не выводила его на экран. Воспользуемся тем же приёмом, что был в функции для переворота строки: создадим пустую строку `result` и будем её наполнять в цикле, а потом вернём из функции.
 
   ```java
-  public static String shouter(String str) {
-    int length = str.length();
-    String result = "";
+  static String shouter(String str) {
+    var length = str.length();
+    var result = "";
     if (length > 5) {
-      int counter = 0;
+      var counter = 0;
       while (counter != 100) {
         result += str;
         counter += 1;

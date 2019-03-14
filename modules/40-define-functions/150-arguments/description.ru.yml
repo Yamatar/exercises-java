@@ -6,7 +6,7 @@ theory: |
   Новички иногда пытаются сделать примерно такое определение функции:
 
   ```java
-  public static void showDate("Today is: December 5") {
+  static void showDate("Today is: December 5") {
     // какой-нибудь код
   }
   ```
@@ -19,7 +19,7 @@ theory: |
 
   ```java
   public static void showDate() {
-    String text = "Today is: December 5";
+    var text = "Today is: December 5";
     // какой-нибудь код
   }
   ```
@@ -46,11 +46,12 @@ instructions: |
   Vaes Dothrak ======== Vahar
   ```
 
-  В документации Java он нашёл функцию `repeat`. Она принимает 1 аргумент: число, и возвращает повторяющуюся строку. Вот как он использует её:
+  Сэм где-то нашёл функцию `repeat` из класса `Functions`. Она принимает два аргумента: какое-то число N и строку, и возвращает повторенную N раз строку. Вот как он использует её:
 
   ```java
-  System.out.print("=-".repeat(4));
+  System.out.print(Functions.repeat("=-", 4));
   ```
+#Нужно сделать эту ф-цию в Functions и переделать пример
 
   <pre class='hexlet-basics-output'>=-=-=-=-</pre>
 
@@ -61,9 +62,11 @@ instructions: |
   Вот пример того, как Сэм будет использовать написанную вами `printSeq`:
 
   ```java
-  printSeq("=-", 4);
+  App.printSeq("=-", 4);
   ```
 
   <pre class='hexlet-basics-output'>=-=-=-=-</pre>
+
+  Как обычно, функцию нужно сделать public static, а не просто static, чтобы мы смогли вызвать ее из другого класса.
 
 tips: []

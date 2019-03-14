@@ -19,12 +19,13 @@ theory: |
     isPrime(3); // true
     isPrime(4); // false
   }
-  public static boolean isPrime(int number) {
+  static boolean isPrime(int number) {
     if (number < 2) {
       return false;
     }
 
-    double divider = 2;
+    var divider = 2;
+#почему он был задан как double???
 
     while (divider <= number / 2) {
       if (number % divider == 0) {

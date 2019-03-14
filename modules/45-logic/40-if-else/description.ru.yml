@@ -25,9 +25,10 @@ theory: |
     getTypeOfSentence("Hodor?"); // => Sentence is question
   }
 
-  public static String getTypeOfSentence(String sentence) {
-    char lastChar = sentence.charAt(sentence.length() - 1);
-    String sentenceType;
+  static String getTypeOfSentence(String sentence) {
+    var lastChar = sentence.charAt(sentence.length() - 1);
+    var sentenceType;
+#мы не знаем такой конструкции - объявления без присваивания!
     if (lastChar == '?') {
       sentenceType = "question";
     } else {
@@ -48,12 +49,7 @@ instructions: |
 
   Функция принимает адреса в виде `АДРЕС` или `https://АДРЕС`, но всегда возвращает адрес в виде `https://АДРЕС`
 
-  Есть два пути решения:
-
-  1. Можно сравнить первые 8 символов строки-аргумента со строкой `https://`.
-  2. Можно использовать функцию `startsWith` чтобы проверить начинается ли строка с префикса `https://`.
-
-  А потом на основе этого добавлять или не добавлять `https://`.
+  Можно использовать функцию `startsWith` чтобы проверить начинается ли строка с префикса `https://`. А потом на основе этого добавлять или не добавлять `https://`.
 
   Примеры вызова:
 

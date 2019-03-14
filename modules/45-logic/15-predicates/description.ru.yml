@@ -6,7 +6,7 @@ theory: |
   Вспомним функцию `isInfant` из прошлого урока:
 
   ```java
-  public static boolean isInfant(int age) {
+  static boolean isInfant(int age) {
       return age < 1;
   }
   ```
@@ -26,15 +26,15 @@ theory: |
 
   ---
 
-  Давайте напишем еще одну функцию-предикат. Она принимает строку и проверяет, является ли она словом `"Castle"`:
+  Давайте напишем еще одну функцию-предикат. Она принимает строку и проверяет, пустая ли она. Пустой строкой называется строка "" - ее длина равна 0. Как мы помним, для вычисления длины строки str можно использовать выражение str.length():
 
   ```java
   public static void main(String[] args) {
-    System.out.print(isCastle("Sea"));
+    System.out.print(isEmpty("Sea"));
   }
 
-  public static boolean isCastle(String str) {
-      return "Castle".equals(str);
+  static boolean isEmpty(String str) {
+      return str.length() == 0;
   }
   ```
 
@@ -43,11 +43,13 @@ theory: |
 
 instructions: |
 
-  Напишите функцию `isMister`, которая принимает строку и проверяет, является ли она словом `"Mister"`.
+#Напишите функцию `isMister`, которая принимает строку и проверяет, является ли она словом `"Mister"`.
+#Придумать что-то другое, не требующее сравнения строк и похожее на уже написанное. Например, проверка что число отрицательное.
 
 tips:
   - |
     [Именование в программировании](https://ru.hexlet.io/blog/posts/naming-in-programming)
+#Причем тут именование?
 
 definitions:
   - name: "Предикат"
