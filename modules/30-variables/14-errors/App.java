@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) {
-        String family = "Targaryen";
+        var family = "Targaryen";
 
         // BEGIN
-        String pet = "Dragon";
+        var pet = "Dragon";
         // END
 
         System.out.print(family);

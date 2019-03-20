@@ -14,7 +14,7 @@ theory: |
   In Java, there is a function for finding the minimum number of two. Call it:
 
   ```java
-  int result = Math.min(1, 5);
+  var result = Math.min(1, 5);
   ```
 
   We created the `result` variable and set to write the result (return value) into it, which the function `Math.min` returns. The entry `Math.min(1, 5)` means that a function is called with the name `Math.min` and with arguments (or with a parameter) 1 and 5. The called function has returned a value.
@@ -28,7 +28,7 @@ theory: |
   Here is an example of a function that takes no arguments:
 
   ```java
-  int result = "Hello world!".length();
+  var result = "Hello world!".length();
   ```
 
   The `length` function returns the length of a string.
@@ -42,7 +42,7 @@ instructions: |
   Here is an example of use, where the distance between Lannisport and Bayasabhad is displayed:
 
   ```java
-  int distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
+  var distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
   System.out.print(distance);
   ```
 

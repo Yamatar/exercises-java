@@ -1,5 +1,5 @@
 public class App {
-    final static int SECONDS_IN_YEAR = 60 * 60 * 24 * 365;
+    final static var SECONDS_IN_YEAR = 60 * 60 * 24 * 365;
 
     public static double getYear(int timestamp) {
         // BEGIN

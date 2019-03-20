@@ -10,7 +10,7 @@ theory: |
   Let's start writing a function:
 
   ```java
-  public static String getEvenNumbersUpTo(int num) {
+  static String getEvenNumbersUpTo(int num) {
 
   }
   ```
@@ -24,9 +24,9 @@ theory: |
   We do everything as usual - the counter, cycle, update the counter:
 
   ```java
-  public static String getEvenNumbersUpTo(int num) {
-    int counter = 1;
-    String result = "";
+  static String getEvenNumbersUpTo(int num) {
+    var counter = 1;
+    var result = "";
 
     while (counter != $num) {
       result +=counter;
@@ -58,9 +58,9 @@ theory: |
   The predicate should be changed to *"while the counter is less than or equal to `num`"*:
 
   ```java
-  public static String getEvenNumbersUpTo(int num) {
-    int counter = 1;
-    String result = "";
+  static String getEvenNumbersUpTo(int num) {
+    var counter = 1;
+    var result = "";
 
     while (counter <= num) {
       result += counter;
@@ -86,9 +86,9 @@ theory: |
   So you need a condition with `if` directly in the body of the loop. In the place where we added the number to the result string, we need to add a condition:
 
   ```java
-  public static String getEvenNumbersUpTo(int num) {
-    int counter = 1;
-    String result = "";
+  static String getEvenNumbersUpTo(int num) {
+    var counter = 1;
+    var result = "";
 
     while (counter <= num) {
       if (counter % 2 == 0) {

@@ -6,7 +6,7 @@ theory: |
   Look at the code from one of the previous lessons:
 
   ```java
-  int distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
+  var distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
   ```
 
   What can be said about him? What conclusions do? Try to complete these statements yourself:
@@ -34,7 +34,7 @@ theory: |
   Let's return to the first example:
 
   ```java
-  int distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
+  var distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
   ```
 
   The variable `distance` records the result of evaluating the expression. Unlike operations (for example, `10 + 12`), where you can clearly see what kind of calculation is performed, in functions the calculation itself is hidden from us, and we see only the result. Therefore, it is said that the function "returns" value. You can apply this terminology to ordinary operations. For example, say concatenation of two strings returns a new string.
@@ -44,7 +44,7 @@ theory: |
   Suppose in class Functions we have a function `numberOfKnights`, which takes the name of a castle in the kingdom and returns the number of knights in this castle. Knowing that ** a function call is an expression **, we can assume that such code will work:
 
   ```java
-  int result = 4 + Functions.numberOfKnights("Winterfell");
+  var result = 4 + Functions.numberOfKnights("Winterfell");
   ```
 
   Because it is the addition of two expressions: the expression `4` and the expression `numberOfKnights ("Winterfell")`. The result is `4 + some number`.
@@ -52,7 +52,7 @@ theory: |
   This means that such code will work:
 
   ```java
-  int result = Functions.numberOfKnights("Winterfell") + Functions.numberOfKnights("Oldtown");
+  var result = Functions.numberOfKnights("Winterfell") + Functions.numberOfKnights("Oldtown");
   ```
 
   There are two different function calls, but each call is an expression, so you end up with the addition of two values ​​- two numbers (the number of knights of the castle `Winterfell` and the number of knights of the castle `Oldtown`).

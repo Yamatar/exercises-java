@@ -51,7 +51,6 @@ instructions: |
   ```java
   System.out.print(Functions.repeat("=-", 4));
   ```
-#Нужно сделать эту ф-цию в Functions и переделать пример
 
   <pre class='hexlet-basics-output'>=-=-=-=-</pre>
 

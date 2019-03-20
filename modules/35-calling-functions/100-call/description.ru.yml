@@ -13,7 +13,7 @@ theory: |
 
   В Java есть функция для нахождения минимального числа из двух. Вызовем её:
   ```java
-  int result = Math.min(1, 5);
+  var result = Math.min(1, 5);
   ```
 
   Мы создали переменную `result` и указали записать в неё результат (возвращаемое значение), который вернет функция `Math.min`. Запись `Math.min(1, 5)` означает, что вызывается функция с именем `Math.min` и с аргументами (или с параметроми) 1 и 5. Вызванная функция _вернула_ значение.
@@ -27,7 +27,7 @@ theory: |
   А вот пример функции, которая не принимает аргументов:
 
   ```java
-  int result = "Hello world!".length();
+  var result = "Hello world!".length();
   ```
 
   Функция `length` возвращает длину строки.
@@ -41,7 +41,7 @@ instructions: |
   Вот пример использования, где на экран выводится расстояние между Lannisport и Bayasabhad:
 
   ```java
-  int distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
+  var distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
   System.out.print(distance);
   ```
   Сэм написал свою функцию в отдельном классе, поэтому мы перед названием функции указываем название класса, в котором определена эта функция.

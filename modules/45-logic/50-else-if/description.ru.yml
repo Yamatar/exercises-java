@@ -1,6 +1,6 @@
 ---
 
-name: else ifOperator
+name: else if
 theory: |
 
   #### Вкратце
@@ -20,10 +20,6 @@ theory: |
       // в ином случае
   }
   ```
-#тут надо посмореть в разных java code style guide это паттерн или антипаттерн!
-#мы же тоько что советовали не писать тело if без фигурных скобок - а тут else пишется
-#без них а по сути это именно if вложенный внутрь другого if!
-#Ну и в любом случае это не какой-то отдельный оператор! А вложенные if просто.
 
   ---
 
@@ -39,7 +35,6 @@ theory: |
   public static String getTypeOfSentence(String sentence) {
     var lastChar = sentence.charAt(sentence.length() - 1);
     var sentenceType;
-#не умеем так ^^
     if (lastChar == '?') {
       sentenceType = "question";
     }
@@ -68,10 +63,10 @@ theory: |
     getTypeOfSentence("No!");  // => 'Sentence is exclamation'
   }
 
-  public static String getTypeOfSentence(String sentence)
+  static String getTypeOfSentence(String sentence)
   {
-    char lastChar = sentence.charAt(sentence.length() - 1);
-    String sentenceType;
+    var lastChar = sentence.charAt(sentence.length() - 1);
+    var sentenceType;
 
     if (lastChar == '?') {
       sentenceType = "question";
@@ -117,5 +112,5 @@ instructions: |
 tips: []
 
 definitions:
-  - name: "else ifOperator"
+  - name: "else if"
     description: "способ задать несколько альтернативных условий"

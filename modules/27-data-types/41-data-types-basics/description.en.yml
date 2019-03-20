@@ -3,6 +3,28 @@
 name: Data Types
 theory: |
 
+  Data types in Java are divided into two important groups according to how variables of this type are related and the values stored in them.
+
+  What will the following code output?
+
+  ```java
+  var a = 10;
+  var b = a;
+  a = 20;
+  System.out.print(b);
+  ```
+
+  10 will be output, because with the assignment b = a, the number 10, which at this moment is contained in a, will be written into the variable b.
+
+  If you write
+
+  ```java
+  var a = "string";
+  var b = a;
+  ```
+
+  - then the situation will be different.
+
   #### Briefly
 
   Primitive data types in Java:
@@ -39,9 +61,9 @@ theory: |
   System.out.print(10.234);
   ```
 
-  The “integer” and “rational number” data types are *primitive* types, they are embedded in the Java language itself. The data type "String" is *reference* type. Programmers themselves can create their own reference modules.variables.
+  The lines in programming are called "strings", and the lines of text files are called "lines." For example, the code above has three lines (lines), and there are no lines (strings). In all the lessons we will say **string** to indicate the data type "string", and **line** to indicate lines (lines) in files).
 
-  (In English, the lines in programming are called "strings", and the lines of text files are called "lines." For example, the code above has three lines (lines), and there are no lines (strings). In all the lessons we will say **string** to indicate the data type "string", and **line** to indicate lines (lines) in files).
+  Programmers themselves can create new data types, albeit with certain restrictions.
 
 instructions: |
   Display the number `-0.304`.

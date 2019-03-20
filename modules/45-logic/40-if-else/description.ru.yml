@@ -28,7 +28,6 @@ theory: |
   static String getTypeOfSentence(String sentence) {
     var lastChar = sentence.charAt(sentence.length() - 1);
     var sentenceType;
-#мы не знаем такой конструкции - объявления без присваивания!
     if (lastChar == '?') {
       sentenceType = "question";
     } else {

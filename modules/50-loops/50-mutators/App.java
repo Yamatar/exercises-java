@@ -1,10 +1,10 @@
 public class App {
     public static String filterString(String str, char symbol) {
-        int index = 0;
-        int length = str.length();
-        String result = "";
+        var index = 0;
+        var length = str.length();
+        var result = "";
         while (index < length) {
-            char currentChar = str.charAt(index);
+            var currentChar = str.charAt(index);
             if (currentChar != symbol) {
                 result += currentChar;
             }

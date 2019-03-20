@@ -2,10 +2,10 @@ public class App {
     // BEGIN
     public static String mysubstr(String str, int length)
     {
-        int index = 0;
-        String result = "";
+        var index = 0;
+        var result = "";
         while (index < length) {
-            char currentChar = str.charAt(index);
+            var currentChar = str.charAt(index);
             result = result + currentChar;
             index = index + 1;
         }

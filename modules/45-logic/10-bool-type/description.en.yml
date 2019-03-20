@@ -14,16 +14,14 @@ theory: |
   * `==` equal
   * `!=` not equal
 
-  The logical operation of the type `5 > 4` is an expression, and its result is the special value `true` or `false`. This is a new data type for us - boolean.
-
-  Along with integers and rational numbers, **the type boolean is one of the primitive data types in Java**.
+  The logical operation of the type `5 > 4` is an expression, and its result is the value of the logical type. The Java boolean type bool is a value that is written as true or false, for example, var isFivePositive = (5 > 0).
 
   ---
 
-  Let's try to write a primitive function that takes the child's age at the input and determines whether the child is a baby. Infants are considered children up to a year:
+  Let us try to write a function that takes the child’s age in years (integer is an int type) and determines whether the child is a baby. Infants are considered children up to a year:
 
   ```java
-  public static boolean isInfant(double age) {
+  static boolean isInfant(int age) {
     return age < 1;
   }
   ```
@@ -39,17 +37,17 @@ theory: |
     System.out.print(isInfant(3));
   }
 
-  public static boolean isInfant(double age) {
+  static boolean isInfant(int age) {
     return age < 1;
   }
   ```
 
   <pre class = 'hexlet-basics-output'>false</ pre>
 
-  And now we’ll check a child who is half a year old:
+  And now let's check a child who is half a year old - zero full years:
 
   ```java
-  System.out.print(isInfant(0.5));
+  System.out.print(isInfant(0));
   ```
 
   <pre class='hexlet-basics-output'>true</pre>

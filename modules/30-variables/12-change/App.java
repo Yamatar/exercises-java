@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        String name = "Brienna";
+        var name = "Brienna";
 
         // BEGIN
         name = "anneirB";

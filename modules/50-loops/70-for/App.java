@@ -12,8 +12,8 @@ public class App {
          * and changing arguments is considered harmful.
          */
 
-        int sum = 0;
-        for (int i = start; i <= finish; i++) {
+        var sum = 0;
+        for (var i = start; i <= finish; i++) {
             sum += i;
         }
 

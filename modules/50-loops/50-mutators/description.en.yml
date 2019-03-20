@@ -13,7 +13,7 @@ theory: |
 
   ---
 
-  There are two operations in the Java language: **increment** `++` and **decrement** `--`, which are very often found with cycles. These unary operations increase and decrease by one the number written to the variable:
+  There are two statements in the Java language: **increment** `++` and **decrement** `--`, which are very often found with cycles. These unary operations increase and decrease by one the number written to the variable:
 
   ```java
   i = 0;
@@ -37,16 +37,16 @@ theory: |
 
   It seems that there is no difference between the postfix and prefix forms. But here begins the complexity.
 
-  Unlike all other operations that do not have side effects and simply return a new value, increment and decrement not only return a value, but also ** change ** the value of a variable.
+  Unlike all other operators that do not have side effects and simply return a new value, increment and decrement not only return a value, but also ** change ** the value of a variable.
 
-  When using prefix notation, the variable is changed first and then returned.
+  When using prefix notation, the variable is first changed, and then the resulting value is returned.
 
-  When using postfix notation, the opposite is true: first, return and then change the variable.
+  When using postfix notation, vice versa: after the change, the value that was returned before the change of the variable is returned.
 
   The rule works the same for increment and decrement. For simplicity, consider only the increment:
 
   ```java
-  int x = 5;
+  var x = 5;
 
   System.out.println(++x); // => 6
   System.out.println(x);   // => 6
@@ -82,7 +82,7 @@ instructions: |
   Call example:
 
   ```java
-  String str = "If I look back I am lost";
+  var str = "If I look back I am lost";
   filterString(str, 'I'); // => 'f  look back am lost'
   filterString(str, 'o'); // => 'If I lk back I am lst'
   ```

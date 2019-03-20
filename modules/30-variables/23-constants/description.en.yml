@@ -8,11 +8,11 @@ theory: |
   To access such data in Java, it is customary to use constants.
 
   ```java
-  final double PI = 3.14;
+  final var PI = 3.14;
   System.out.print(PI); // 3.14
   ```
 
-  Creating a constant is different from creating a variable. It starts with the keyword `final` and the following constant name. You do not need a dollar sign. Next, it is assigned the desired value. Constants are usually called uppercase letters with `_` as a delimiter. A constant, like a variable, can be used in any expression. The only restriction is that the constant cannot be changed, which sounds quite logical.
+  Constants are usually called uppercase letters with `_` as a separator. A constant, like a variable, can be used in any expression. The only restriction is that the constant cannot be changed, which sounds quite logical.
 
 instructions: |
 

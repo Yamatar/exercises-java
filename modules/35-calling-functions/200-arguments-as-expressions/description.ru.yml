@@ -6,7 +6,7 @@ theory: |
   Рассмотрим вот такой код:
 
   ```java
-  int result = Math.min(1, 5);
+  var result = Math.min(1, 5);
   ```
 
   Функция `Math.min` вызывается с аргументами `1` и `5`.
@@ -16,7 +16,7 @@ theory: |
   При вызове функции можно передать в неё аргументом **выражение**:
 
   ```java
-  int result = Math.min(1, 2 + 3);
+  var result = Math.min(1, 2 + 3);
   ```
 
   Результат будет таким же, как в первом примере, потому что выражение `2 + 3` превратится в значение `5`, и произойдет вызов `Math.min` с аргументами `1` и `5`.
@@ -24,8 +24,8 @@ theory: |
   Более того, можно использовать переменные вперемешку со значениями и другими выражениями:
 
   ```java
-  int number = 2 + 2;
-  int result = Math.min(1, 1 + number);
+  var number = 2 + 2;
+  var result = Math.min(1, 1 + number);
   ```
 
   Естественно, это работает не только с числами, а с любыми значениями и выражениями. Например, со строками.
@@ -35,14 +35,14 @@ theory: |
   ```java
 
   // простые вызовы
-  int result = Math.min(1, 5);       // 1
+  var result = Math.min(1, 5);       // 1
 
   // выражения в аргументах
-  int result = Math.min(1, 2 + 3);   // 1
+  var result = Math.min(1, 2 + 3);   // 1
 
   // выражения с переменными в аргументах
-  int number = 2 + 2;
-  int result = Math.min(1, 1 + number);  // 1
+  var number = 2 + 2;
+  var result = Math.min(1, 1 + number);  // 1
   ```
 
   Заметьте схожесть: во всех вызовах в функции передается какая-то информация, но иногда это простое, «готовое» значение, а иногда составное выражение — «неготовое» значение (`2 + 3`, `1 + number` и т.д.). При этом во всех примерах передаётся два аргумента.
@@ -52,7 +52,7 @@ instructions: |
   Вам доступна функция `Functions.calculateDistanceBetweenTowns`. Она принимает один аргумент, в котором должны содержаться названия двух городов через дефис. В ответ она возвращает расстояние между этими городами. Вот пример использования:
 
   ```java
-  int distance = Functions.calculateDistanceBetweenTowns("Lannisport-Bayasabhad");
+  var distance = Functions.calculateDistanceBetweenTowns("Lannisport-Bayasabhad");
   ```
 
   Напишите программу, которая использует функцию `Functions.calculateDistanceBetweenTowns` и выводит на экран расстояние между городами, записанными в переменные `from` и `to`.

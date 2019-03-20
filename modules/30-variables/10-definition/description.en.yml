@@ -14,12 +14,12 @@ theory: |
     
   ```
   //greeting - translated as greeting
-  String greeting = "Father!";
+  var greeting = "Father!";
   System.out.print(greeting);
   System.out.print(greeting);
   ```
     
-  In the `String greeting = "Father!"` - the value of `"Father!"` is assigned to a variable of type String named `greeting`.
+  In the `var greeting = "Father!"` - the value of `"Father!"` is assigned to a variable of type String named `greeting`.
     
   When the variable is created, you can start using it. It is substituted in those places where our phrase used to stand. During code execution, the line `System.out.print(greeting)` replaces the variable with its contents, and then the code is executed. As a result, the output of our program will be as follows:
     
@@ -33,17 +33,17 @@ theory: |
   The number of variables created is not limited in any way; large programs contain tens and hundreds of thousands of variable names:
     
   ```java
-  String greeting1 = "Father!";
+  var greeting1 = "Father!";
   System.out.print(greeting1);
   System.out.print(greeting1);
-  String greeting2 = "Mother!";
+  var greeting2 = "Mother!";
   System.out.print(greeting2);
   System.out.print(greeting2);
   ```
   For the convenience of program analysis, it is customary to create variables as close as possible to the place where they are used.
 
 instructions: |
-    Create a String variable with the name `motto` and the contents of `What is Dead May Never Die!`. Print the contents of the variable.
+    Create a variable with the name `motto` and the contents of `What is Dead May Never Die!`. Print the contents of the variable.
 
 tips:
   - |

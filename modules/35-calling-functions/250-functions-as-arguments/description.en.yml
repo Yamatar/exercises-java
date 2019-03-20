@@ -6,7 +6,7 @@ theory: |
   We continue the theme of expressions. As you remember, **a function call is an expression**, which means we can put a function call into a function call (... function call, a function call into a call ... aaaa!).
 
   ```java
-  int result = Math.min(1, Math.min(2, 3));
+  var result = Math.min(1, Math.min(2, 3));
   ```
 
   We call the function `Math.min` and pass two arguments to it:
@@ -18,8 +18,8 @@ theory: |
   You can do the same, but with intermediate steps:
 
   ```java
-  int secondNumber = Math.min(2, 3);
-  int result = Math.min(1, secondNumber);
+  var secondNumber = Math.min(2, 3);
+  var result = Math.min(1, secondNumber);
   ```
 
   Which option is preferable? If the calculation is quite simple and shallow (no more than one function embedding), then you can safely put the call into the call. In other situations, it is preferable to split the calls into intermediate calculations.

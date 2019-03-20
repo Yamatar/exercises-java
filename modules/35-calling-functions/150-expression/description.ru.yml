@@ -6,7 +6,7 @@ theory: |
   Посмотрите на код из одного из предыдущих уроков:
 
   ```java
-  int distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
+  var distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
   ```
 
   Что можно сказать о нём? Какие выводы сделать? Попробуйте закончить эти утверждения самостоятельно:
@@ -34,7 +34,7 @@ theory: |
   Вернемся к первому примеру:
 
   ```java
-  int distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
+  var distance = Functions.calculateDistance("Lannisport", "Bayasabhad");
   ```
 
   В переменную `distance` записывается результат вычисления выражения. В отличие от операций (например, `10 + 12`), где явно видно, какое вычисление производится, в функциях само вычисление скрыто от нас, и мы видим только результат. Поэтому говорят, что функция «возвращает» значение. Можно применить эту терминологию и к обычным операциям. Например, сказать, что конкатенация двух строк возвращает новую строку.
@@ -44,7 +44,7 @@ theory: |
   Допустим, в классе Functions у нас есть функция `numberOfKnights`, которая принимает название замка в королевстве и возвращает количество рыцарей в этом замке. Зная, что **вызов функции — выражение**, можно допустить, что такой код будет работать:
 
   ```java
-  int result = 4 + Functions.numberOfKnights("Winterfell");
+  var result = 4 + Functions.numberOfKnights("Winterfell");
   ```
 
   Потому что это сложение двух выражений: выражения `4` и выражения `Functions.numberOfKnights("Winterfell")`. В итоге получится `4 + какое-то число`.
@@ -52,7 +52,7 @@ theory: |
   Значит, и такой код будет работать:
 
   ```java
-  int result = Functions.numberOfKnights("Winterfell") + Functions.numberOfKnights("Oldtown");
+  var result = Functions.numberOfKnights("Winterfell") + Functions.numberOfKnights("Oldtown");
   ```
 
   Здесь два разных вызова функций, но каждый вызов — выражение, поэтому в итоге получится сложение двух значений — двух чисел (количества рыцарей замка `Winterfell` и количества рыцарей замка `Oldtown`).

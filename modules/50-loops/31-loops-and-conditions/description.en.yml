@@ -12,7 +12,7 @@ theory: |
   Let's start writing a function:
 
   ```java
-  public static void shouter(String str) {
+  static void shouter(String str) {
 
   }
   ```
@@ -22,8 +22,8 @@ theory: |
   So you need to start by creating the condition:
 
   ```java
-  public static void shouter(String str) {
-    int length = str.length();
+  static void shouter(String str) {
+    var length = str.length();
 
     if (length > 5) {
     }
@@ -41,11 +41,11 @@ theory: |
   We need 100 repetitions, so we will make a counter with a value of 0 and we will increase it by 1 each step, and so on until the counter becomes 100.
 
   ```java
-  public static void shouter(String str) {
-    int length = str.length();
+  static void shouter(String str) {
+    var length = str.length();
 
     if (length > 5) {
-      int counter = 0;
+      var counter = 0;
       while (counter != 100) {
         System.out.print(str);
         counter += 1;
@@ -67,11 +67,11 @@ theory: |
   Now let's modify the function so that it returns the result, rather than displaying it on the screen. Let's use the same technique that was in the function for flip the line: create an empty string `result` and fill it in a loop, and then return it from the function.
 
   ```java
-  public static String shouter(String str) {
-    int length = str.length();
-    String result = "";
+  static String shouter(String str) {
+    var length = str.length();
+    var result = "";
     if (length > 5) {
-      int counter = 0;
+      var counter = 0;
       while (counter != 100) {
         result += str;
         counter += 1;

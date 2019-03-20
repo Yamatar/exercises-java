@@ -7,7 +7,7 @@ theory: |
 
   ```java
 
-  String what = "Kings" + "road";
+  var what = "Kings" + "road";
   System.out.print(what); // => "Kingsroad"
   ```
 
@@ -15,8 +15,8 @@ theory: |
 
   ```java
 
-  String first = "Kings";
-  String what = first + "road";
+  var first = "Kings";
+  var what = first + "road";
 
   System.out.print(what); // => "Kingsroad"
   ```
@@ -25,10 +25,10 @@ theory: |
 
   ```java
 
-  String first = "Kings";
-  String last = "road";
+  var first = "Kings";
+  var last = "road";
 
-  String what = first + last;
+  var what = first + last;
   System.out.print(what); // => "Kingsroad"
   ```
 

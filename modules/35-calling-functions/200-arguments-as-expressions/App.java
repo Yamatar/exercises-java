@@ -1,10 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        String from = "The Twins";
-        String to = "The Eyrie";
+        var from = "The Twins";
+        var to = "The Eyrie";
 
         // BEGIN
-        int distance = Functions.calculateDistanceBetweenTowns(from + "-" + to);
+        var distance = Functions.calculateDistanceBetweenTowns(from + "-" + to);
         System.out.print(distance);
         // END
     }

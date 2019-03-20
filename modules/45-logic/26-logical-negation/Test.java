@@ -1,7 +1,7 @@
 class Test {
     public static void main(String[] args) throws Exception{
-        final var expected = 35;
-
-        assert expected == App.getParentNamesTotalLength("Daenerys Targaryen");
+        assert !App.isNotLannisterSoldier("red", "lion");
+        assert App.isNotLannisterSoldier("red", "shield");
+        assert !App.isNotLannisterSoldier("red", "null");
     }
 }

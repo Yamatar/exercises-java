@@ -8,11 +8,11 @@ theory: |
   To begin with we will transfer 50 euros to dollars. Suppose that one euro - 1.25 dollars:
 
   ```java
-  double dollars = 50 * 1.25;
+  var dollars = 50 * 1.25;
   System.out.print(dollars);
   ```
 
-  In the previous lesson we wrote down a specific value in a variable. And here `double dollars = 50 * 1.25;` to the right of the sign equals **expression**. The program will calculate the result - `62.5` - and write it into a variable. From the point of view of the program, it does not matter what is in front of him: `62.5` or` 50 * 1.25`, both of these options are expressions that need to be calculated. And they are calculated in the same value - `62.5`.
+  In the previous lesson we wrote down a specific value in a variable. And here `var dollars = 50 * 1.25;` to the right of the sign equals **expression**. The program will calculate the result - `62.5` - and write it into a variable. From the point of view of the program, it does not matter what is in front of him: `62.5` or` 50 * 1.25`, both of these options are expressions that need to be calculated. And they are calculated in the same value - `62.5`.
 
   Any string is an expression. String concatenation is also an expression. When the program sees the expression, it processes it and generates the result - **the value of the expression**. Here are some examples of expressions, and in the comments to the right of each expression is the total value:
 
@@ -33,9 +33,9 @@ theory: |
   Let's return to our monetary program. We write the value of the dollar in rubles, as a separate variable. We calculate the price of 50 euros in dollars, multiplying them by `1.25`. Suppose that 1 dollar - 60 rubles:
 
   ```java
-  double rublesPerDollar = 60;
-  double dollars = 50 * 1.25; // => 62.5
-  double rubles = dollars * rublesPerDollar; // => 3750
+  var rublesPerDollar = 60;
+  var dollars = 50 * 1.25; // => 62.5
+  var rubles = dollars * rublesPerDollar; // => 3750
 
   System.out.print(rubles);
   ```
@@ -43,9 +43,9 @@ theory: |
   Now let's add text to the output using concatenation:
 
   ```java
-  double rublesPerDollar = 60;
-  double dollars = 50 * 1.25; // => 62.5
-  double rubles = dollars * rublesPerDollar; // => 3750
+  var rublesPerDollar = 60;
+  var dollars = 50 * 1.25; // => 62.5
+  var rubles = dollars * rublesPerDollar; // => 3750
 
   System.out.print("The price is" + rubles + "rubles");
   ```

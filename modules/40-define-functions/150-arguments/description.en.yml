@@ -6,7 +6,7 @@ theory: |
   Newbies sometimes try to do something like this function definition:
 
   ```java
-  public static void showDate("Today is: December 5") {
+  static void showDate("Today is: December 5") {
     // some code
   }
   ```
@@ -19,7 +19,7 @@ theory: |
 
   ```java
   public static void showDate() {
-    String text = "Today is: December 5";
+    var text = "Today is: December 5";
     // some code
   }
   ```
@@ -46,10 +46,10 @@ instructions: |
   Vaes Dothrak ======== Vahar
   ```
 
-  In the Java documentation, he found the function `repeat`. It takes 1 argument: a number, and returns a duplicate string. Here is how he uses it:
+  Sam somewhere found the function `repeat` from the class `Functions`. It takes two arguments: some number N and a string, and returns a string repeated N times. Here is how he uses it:
 
   ```java
-  System.out.print("=-".repeat(4));
+  System.out.print(Functions.repeat(4));
   ```
 
   <pre class='hexlet-basics-output'>=-=-=-=-</pre>
@@ -61,9 +61,11 @@ instructions: |
   Here is an example of how Sam would use the `printSeq` you wrote:
 
   ```java
-  printSeq("=-", 4);
+  App.printSeq("=-", 4);
   ```
 
   <pre class='hexlet-basics-output'>=-=-=-=-</pre>
+
+  As usual, the function needs to be public static, not just static, so that we can call it from another class.
 
 tips: []

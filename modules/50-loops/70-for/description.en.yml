@@ -11,23 +11,21 @@ theory: |
   }
 
   //eg
-  for (int index = 10; index >= 0; index--) {
+  for (var index = 10; index >= 0; index--) {
     // ...
   }
   ```
 
   ---
 
-  The `while` loop is ideal for situations where the number of iterations is not known in advance, for example, when searching for a prime number. When the number of iterations is known, it is preferable to use the `for` loop.
-
-  Let's look at the implementation of flipping a string through a `for` loop:
+  The for loop statement is essentially a shorthand notation for while, which allows you to declare a counter, specify its initial value, and the termination condition is more compact - usually in one line of code. Here's how the implementation of the reversal of the line will change if instead of while using for:
 
   ```java
-  public static String reverseString(String str) {
-      String result = "";
+  static String reverseString(String str) {
+      var result = "";
 
-      for (int index = str.length() - 1; index >= 0; index--) {
-          char currChar = str.charAt(index);
+      for (var index = str.length() - 1; index >= 0; index--) {
+          var currChar = str.charAt(index);
           result = result + currChar;
       }
 
@@ -37,13 +35,21 @@ theory: |
 
   You can read like this: *“the loop with the index repeats as long as `index >= 0` and after each step decreases the `index` by 1”*.
 
+  And due to the fact that this whole phrase is collected in one line of code and is also readable in it (if the initial value, the predicate and the change can be written briefly), clarity of the code benefits from this.
+
   In the definition of the `for` loop there is:
 
   1. the initial value of the counter
   2. predicate-condition for repeating cycles
   3. description of how the counter changes after each step
 
-  Otherwise, the principle of operation is exactly the same as that of the `while` loop.
+  The principle of operation is exactly the same as that of the `while` loop. Traditionally, the for loop is used with counters, when a certain counter takes values from M to N with a certain step. Of course, no one bothers to use it, for example, in this form:
+
+  ```java
+  var s = "";
+  for (; s.length < 3; ) { s += "*"; }
+  ```
+  - this code creates the string s from three "asterisks", with neither the declaration of the counter, nor the instruction for changing the counter is indicated - only the condition being checked. But in such cases - when there is no counter - the for loop has no advantage in compactness of the code over the while and then the while is usually used.
 
   ---
 

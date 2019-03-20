@@ -1,6 +1,6 @@
 ---
 
-name: else ifOperator
+name: else if
 theory: |
 
   #### Briefly
@@ -32,9 +32,9 @@ theory: |
     getTypeOfSentence("No!");  // => 'Sentence is exclamation'
   }
 
-  public static String getTypeOfSentence(String sentence) {
-    char lastChar = sentence.charAt(sentence.length() - 1);
-    String sentenceType;
+  static String getTypeOfSentence(String sentence) {
+    var lastChar = sentence.charAt(sentence.length() - 1);
+    var sentenceType;
     if (lastChar == '?') {
       sentenceType = "question";
     }
@@ -63,10 +63,10 @@ theory: |
     getTypeOfSentence("No!");  // => 'Sentence is exclamation'
   }
 
-  public static String getTypeOfSentence(String sentence)
+  static String getTypeOfSentence(String sentence)
   {
-    char lastChar = sentence.charAt(sentence.length() - 1);
-    String sentenceType;
+    var lastChar = sentence.charAt(sentence.length() - 1);
+    var sentenceType;
 
     if (lastChar == '?') {
       sentenceType = "question";
@@ -112,5 +112,5 @@ instructions: |
 tips: []
 
 definitions:
-  - name: "else ifOperator"
+  - name: "else if"
     description: "a way to set several alternative conditions"

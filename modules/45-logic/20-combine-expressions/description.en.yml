@@ -12,7 +12,7 @@ theory: |
   - if the balance is 0, then the number was even
   - if the remainder is not 0, then the number was odd
 
-  The remainder of division is a simple, but very important concept in arithmetic, algebra, and even in number theory and cryptography. The idea is simple: you need to divide the number into several equal groups, and if at the end something remains, this is the remainder of the division.
+  The remainder of division in arithmetic is one of the results of the division operation with the remainder. It is formed if the result of the division cannot be expressed by an integer, while the remainder of the division must be in absolute value less than the divisor. If the numbers are divided by each other without a remainder, or completely, then consider that the remainder is zero.
 
   We divide candies equally between people:
 
@@ -23,7 +23,7 @@ theory: |
   - 19 chocolates, 5 people: 5 x 3 + **residue 4**.
       Therefore, 19 is not a multiple of 5.
 
-  The operator `%` calculates the remainder of the division (not to be confused with the division):
+  The operator `%` calculates the remainder of the division:
 
   - `7 % 2` → `1`
   - `21 % 3` → `0`
@@ -37,7 +37,7 @@ theory: |
     isEven(3);  // => false
   }
 
-  public static boolean isEven(int number) {
+  static boolean isEven(int number) {
     return number % 2 == 0;
   }
   ```
@@ -46,7 +46,7 @@ theory: |
 
   **The priority of arithmetic operations is higher than logical ones.** So, the arithmetic expression `number % 2` is calculated first, then the result participates in logical comparison.
 
-  This can be deciphered as follows: *“calculate the remainder of dividing the number number by 2 and compare whether the remainder equals zero; then return the result of the equality check"*.
+  This can be deciphered as follows: *“calculate the remainder of dividing the number number by 2 and compare with zero; then return the comparison result*.
 
   ---
 
@@ -77,8 +77,6 @@ theory: |
   Try to say what is happening, in the same way as we deciphered the process in the example with isEven at the beginning of the lesson.
 
   ---
-
-  *Recall the extraction of characters from a string using square brackets:*
 
   ```java
 

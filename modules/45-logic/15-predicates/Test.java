@@ -1,7 +1,7 @@
 class Test {
     public static void main(String[] args) throws Exception{
-        assert App.isMister("Mister");
-        assert !App.isMister("Man");
-        assert !App.isMister("313");
+        assert App.isNegative(-1);
+        assert !App.isNegative(0);
+        assert !App.isNegative(1);
     }
 }

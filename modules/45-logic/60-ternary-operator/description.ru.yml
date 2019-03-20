@@ -18,7 +18,7 @@ theory: |
 
   ```java
 
-  public static double abs(doouble number) {
+  public static int abs(int number) {
       if (number >= 0) {
           return number;
       }
@@ -35,7 +35,7 @@ theory: |
 
   ```java
 
-  public static double abs(doouble number) {
+  public static int abs(int number) {
       return number >= 0 ? number : -number;
   }
   ```

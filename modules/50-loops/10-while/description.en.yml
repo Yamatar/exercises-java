@@ -23,8 +23,8 @@ theory: |
     printNumbers(3);
   }
 
-  public static void printNumbers(int lastNumber) {
-    int i = 1;
+  static void printNumbers(int lastNumber) {
+    var i = 1;
 
     while (i <= lastNumber) {
       System.out.println(i);
@@ -36,7 +36,7 @@ theory: |
 
   <pre class='hexlet-basics-output'>1<br>2<br>3<br>finished!</pre>
 
-  The construction reads like this: “do what is indicated in the body of the cycle while the condition (predicate) `i <= lastNumber` is true”.
+  The while construct reads: “do what is indicated in the body of the loop while the condition (predicate)` i <= lastNumber` is true”. At the same time, the truth of the condition is checked before each execution of the loop body, including before the first one.
 
   The while loop consists of three elements:
 
@@ -46,17 +46,17 @@ theory: |
 
   Each body execution is called an **iteration**. In our example, the call `printNumbers(3)` spawned three iterations, on each of which the variable `i` was displayed.
 
-  The most important thing in the cycle is completion (exit). The process that generates the cycle should eventually stop. The responsibility for stopping lies entirely with the programmer.
+  The most important thing in the cycle is completion (exit). The process that generates the cycle must eventually stop, otherwise the cycle will continue indefinitely. The responsibility for stopping lies entirely with the programmer.
 
-  Usually the task is reduced to the introduction of a variable called "counter". First, it is initialized, that is, it is given an initial value. In our example, this is the line `i = 1`. Then in the cycle condition it is checked whether the counter has reached its limit value.
+  Often, ensuring the finiteness of a cycle comes down to introducing a variable called “counter”, firstly because it’s so easy to convey the idea of ​​“repeat N times”, and secondly, the value of the counter can be used in the body of the cycle itself - as in our example i for print. First, the counter is initialized, that is, it is given an initial value. In our example, this is done by the instruction `i = 1`. Then in the cycle condition it is checked whether the counter has reached its limit value.
 
-  In our example, the limit value is determined by the function argument. If the cycle condition is not met, the body is not met and the interpreter moves on, following the instructions after the loop. But if the condition of the cycle is true, then the body in which the key element of the stop is located is the change in the counter. It is usually done at the end of the body, and this change is one of the rare places where it is impossible to do without a variable. In our example, the line `i = i + 1` is responsible for the change.
+  In our example, the limit value is determined by the function argument. If the cycle condition is not met, the body is not met and the interpreter moves on, following the instructions after the loop. But if the condition of the cycle is true, then the body in which the key element of the stop is located is the change in the counter. It is usually done at the end of the body. In our example, the line `i = i + 1` is responsible for the change.
 
 instructions: |
 
   Modify the `printNumbers` function so that it prints the numbers in reverse order. To do this, go from the top to the bottom. That is, the counter should be initialized with the maximum value, and in the body of the loop it should be reduced to the lower limit.
 
-  Sample call and output:
+  Sample call and output:
 
   ```java
 

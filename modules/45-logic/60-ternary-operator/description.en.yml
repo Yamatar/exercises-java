@@ -18,7 +18,7 @@ theory: |
 
   ```java
 
-  public static double abs(doouble number) {
+  public static int abs(int number) {
       if (number >= 0) {
           return number;
       }
@@ -35,7 +35,7 @@ theory: |
 
   ```java
 
-  public static double abs(doouble number) {
+  public static int abs(int number) {
       return number >= 0 ? number : -number;
   }
   ```
@@ -52,8 +52,8 @@ theory: |
     getTypeOfSentence("Hodor?"); // => question
   }
 
-  public static String getTypeOfSentence(String sentence) {
-      char lastChar = sentence.charAt(sentence.length() - 1);
+  static String getTypeOfSentence(String sentence) {
+      var lastChar = sentence.charAt(sentence.length() - 1);
       if (lastChar == '?') {
           return "question";
       }
@@ -70,8 +70,8 @@ theory: |
     getTypeOfSentence("Hodor?"); // => question
   }
 
-  public static String getTypeOfSentence(String sentence) {
-    char lastChar = sentence.charAt(sentence.length() - 1);
+  static String getTypeOfSentence(String sentence) {
+    var lastChar = sentence.charAt(sentence.length() - 1);
     return (lastChar == '?') ? "question" : "normal";
   }
   ```

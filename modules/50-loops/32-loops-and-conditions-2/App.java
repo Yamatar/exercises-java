@@ -1,7 +1,7 @@
 public class App {
     public static String getEvenNumbersUpTo(int num) {
-        int counter = 1;
-        String result = "";
+        var counter = 1;
+        var result = "";
 
         while (counter <= num) {
             if (counter % 2 == 0) {

@@ -25,9 +25,9 @@ theory: |
     getTypeOfSentence("Hodor?"); // => Sentence is question
   }
 
-  public static String getTypeOfSentence(String sentence) {
-    char lastChar = sentence.charAt(sentence.length() - 1);
-    String sentenceType;
+  static String getTypeOfSentence(String sentence) {
+    var lastChar = sentence.charAt(sentence.length() - 1);
+    var sentenceType;
     if (lastChar == '?') {
       sentenceType = "question";
     } else {
@@ -46,12 +46,7 @@ instructions: |
 
   The function accepts addresses in the form `ADDRESS` or `https://ADDRESS`, but always returns the address in the form `https://ADDRESS`
 
-  There are two solutions:
-
-  1. You can compare the first 8 characters of the argument string with the string `https://`.
-  2. You can use the `startsWith` function to check if the string starts with the `https://` prefix.
-
-  And then based on this, add or not add `https://`.
+  You can use the `startsWith` function to check if the string starts with the `https://`prefix. And then based on this, add or not add `https://`.
 
   Call examples:
 

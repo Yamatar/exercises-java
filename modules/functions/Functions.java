@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class Functions {
     public static boolean isLannisterSoldier(String color, String shield) {
-        return ("red".equals(color) && shield == null) || ("lion".equals(shield));
+        return ("red".equals(color) && shield.equals("null")) || ("lion".equals(shield));
     }
 
     public static String parentFor(String child, String parent) throws Exception {
@@ -55,5 +55,9 @@ public class Functions {
             return 125;
         }
         throw new Exception("Unknown cities: " + source + " and " + dest + ". Please check names");
+    }
+
+    public static String repeat(String text, int count) {
+        return text.repeat(count);
     }
 }
