@@ -39,7 +39,7 @@ theory: |
 
   There are **strings** - character sets in quotes like `"Hello, World!"`. There are **integers** - for example, `7`,` -198`, `0`. These are two different categories of information - two different **data types**.
 
-  The multiplication operation makes sense for the category "integers". But it does not make sense for the category of "strings": to multiply the word "mother" by the word "notepad" is nonsense.
+  The multiplication operation makes sense for integers but it does not make sense for strings: to multiply the word "mother" by the word "notepad" is nonsense.
 
   **The data type determines what can be done with the elements of a specific set of information.**
 

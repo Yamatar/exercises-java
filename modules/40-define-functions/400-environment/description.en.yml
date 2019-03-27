@@ -18,6 +18,8 @@ theory: |
 
   The correct answer is: the code will fail with an error. Because inside the function there is no variable named `age`, but the function tries to use it.
 
+  The function does not have access to variables declared in other functions.
+
   ---
 
   Consider another example:

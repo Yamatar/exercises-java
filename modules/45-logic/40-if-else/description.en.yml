@@ -27,7 +27,7 @@ theory: |
 
   static String getTypeOfSentence(String sentence) {
     var lastChar = sentence.charAt(sentence.length() - 1);
-    var sentenceType;
+    var sentenceType = "";
     if (lastChar == '?') {
       sentenceType = "question";
     } else {

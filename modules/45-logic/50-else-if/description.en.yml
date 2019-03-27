@@ -3,38 +3,18 @@
 name: else if
 theory: |
 
-  #### Briefly
-
-  ```
-  if (condition 1) {
-    // code to be executed
-    // if condition 1 is true
-  } else if (condition 2) {
-    // code to be executed
-    // if condition 1 is false, but condition 2 is true
-  } else if (condition 3) {
-    // code to be executed
-    // if conditions 1 and 2 are false, but condition 3 is true
-  } else {
-    // code to be executed
-    // otherwise
-  }
-  ```
-
-  ---
-
   The `getTypeOfSentence` function from the previous lesson only distinguishes interrogative and regular sentences. Let's try adding support for exclamation sentences:
 
   ```java
   public static void main(String[] args) {
-    getTypeOfSentence("Who?"); // => 'Sentence is question'
+    getTypeOfSentence("Who?");  // => 'Sentence is question'
     getTypeOfSentence("No'");   // => 'Sentence is normal'
-    getTypeOfSentence("No!");  // => 'Sentence is exclamation'
+    getTypeOfSentence("No!");   // => 'Sentence is exclamation'
   }
 
   static String getTypeOfSentence(String sentence) {
     var lastChar = sentence.charAt(sentence.length() - 1);
-    var sentenceType;
+    var sentenceType = "";
     if (lastChar == '?') {
       sentenceType = "question";
     }
@@ -66,7 +46,7 @@ theory: |
   static String getTypeOfSentence(String sentence)
   {
     var lastChar = sentence.charAt(sentence.length() - 1);
-    var sentenceType;
+    var sentenceType = "";
 
     if (lastChar == '?') {
       sentenceType = "question";
@@ -82,8 +62,8 @@ theory: |
 
   Now all the conditions are built in a single structure. `else if` is «if the previous condition is not met, but the current condition is met.» It turns out this scheme:
 
-  - if the last letter is `?`, then `"question"`
-  - otherwise, if the last letter is `!`, then `"exclamation"`
+  - if the last symbol is `?`, then `"question"`
+  - otherwise, if the last symbol is `!`, then `"exclamation"`
   - otherwise `"normal"`
 
   Only one of the code blocks relating to the whole `if` construct will be executed.

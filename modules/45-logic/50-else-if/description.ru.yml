@@ -3,26 +3,6 @@
 name: else if
 theory: |
 
-  #### Вкратце
-
-  ```
-  if (условие 1) {
-      // код, который будет выполнен
-      // если условие 1 истинно
-  } else if (условие 2) {
-      // код, который будет выполнен
-      // если условие 1 ложно, но условие 2 истинно
-  } else if (условие 3) {
-      // код, который будет выполнен
-      // если условия 1 и 2 ложны, но условие 3 истинно
-  } else {
-      // код, который будет выполнен
-      // в ином случае
-  }
-  ```
-
-  ---
-
   Функция `getTypeOfSentence` из предыдущего урока различает только вопросительные и обычные предложения. Давайте попробуем добавить поддержку восклицательных предложений:
 
   ```java
@@ -34,7 +14,7 @@ theory: |
 
   public static String getTypeOfSentence(String sentence) {
     var lastChar = sentence.charAt(sentence.length() - 1);
-    var sentenceType;
+    var sentenceType = "";
     if (lastChar == '?') {
       sentenceType = "question";
     }
@@ -66,7 +46,7 @@ theory: |
   static String getTypeOfSentence(String sentence)
   {
     var lastChar = sentence.charAt(sentence.length() - 1);
-    var sentenceType;
+    var sentenceType = "";
 
     if (lastChar == '?') {
       sentenceType = "question";
@@ -82,8 +62,8 @@ theory: |
 
   Теперь все условия выстроены в единую конструкцию. `else if` — это «если не выполнено предыдущее условие, но выполнено текущее». Получается такая схема:
 
-  - если последняя буква `?`, то `"question"`
-  - иначе, если последняя буква `!`, то `"exclamation"`
+  - если последний символ `?`, то `"question"`
+  - иначе, если последний символ `!`, то `"exclamation"`
   - иначе `"normal"`
 
   Выполнится только один из блоков кода, относящихся ко всей конструкции `if`.

@@ -16,10 +16,19 @@ theory: |
   Date can be changed without changing the link itself, as in this example:
 
   ```java
-  var date = new Date();
-  date.setYear(2000);
-  System.out.print(date);
+  public static void main(String[] args) {
+    var date = new Date();
+    showNextYear(date);
+    System.out.print(date.getYear()); // 2000
+  }
+
+  public static void showNextYear(Date date) {
+    date.setYear(2000);
+    System.out.print(date.getYear()); // 2000
+  }
   ```
+
+  Do not do this in your functions, such a side effect can make debugging very difficult. If you need to perform any calculations on the date, it is better to create a new instance of Date with the new value of the year, month, day and time - rather than changing the existing one that came into your function from somewhere outside. Other solutions are possible.
 
   It will not display the current date, as it would after date = new Date (), but the same
   date, but in 2000. And although we submit the same link to print as before, it has changed

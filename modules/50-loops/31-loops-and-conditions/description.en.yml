@@ -87,6 +87,6 @@ instructions: |
   1. If the string length is greater than 0 and less than 5, then return the original string without repetition.
   2. If the string length is exactly 5 characters, then return the string repeated 10 times.
 
-  The condition "length is more than 5, then return the line repeated 100 times" should be preserved.
+  The condition "if length is more than 5, then return the line repeated 100 times" should be preserved.
 
 tips: []

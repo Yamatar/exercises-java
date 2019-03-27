@@ -5,23 +5,12 @@ theory: |
 
   Logical operations are expressions. So **logical operations can be combined with other expressions**.
 
-  ---
-
   We want to check the parity of a number, that is, the multiplicity of two. In programming, use this approach: check the remainder of the division by 2:
 
   - if the balance is 0, then the number was even
   - if the remainder is not 0, then the number was odd
 
   The remainder of division in arithmetic is one of the results of the division operation with the remainder. It is formed if the result of the division cannot be expressed by an integer, while the remainder of the division must be in absolute value less than the divisor. If the numbers are divided by each other without a remainder, or completely, then consider that the remainder is zero.
-
-  We divide candies equally between people:
-
-  - 7 sweets, 2 people: 2 x 3 + **residue 1**.
-      Therefore, 7 is not a multiple of 2.
-  - 21 candy, 3 people: 3 x 7 + **residue 0**.
-      So, 21 times 3.
-  - 19 chocolates, 5 people: 5 x 3 + **residue 4**.
-      Therefore, 19 is not a multiple of 5.
 
   The operator `%` calculates the remainder of the division:
 

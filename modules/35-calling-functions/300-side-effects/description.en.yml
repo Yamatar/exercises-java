@@ -6,6 +6,7 @@ theory: |
   You have probably already noticed (maybe subconsciously) that `System.out.print` is also a function. It takes data of any type as input and displays it on the screen.
 
   Attention, question: **what does the `System.out.print` function return?**
+
   Answer: whatever she returns, this value is not used at all.
 
   `System.out.print` displays something on the screen, but this is not a return value, it is just some action that the function performs.

@@ -27,7 +27,7 @@ theory: |
 
   static String getTypeOfSentence(String sentence) {
     var lastChar = sentence.charAt(sentence.length() - 1);
-    var sentenceType;
+    var sentenceType = "";
     if (lastChar == '?') {
       sentenceType = "question";
     } else {
@@ -38,7 +38,7 @@ theory: |
   }
   ```
 
-  Мы добавили `else` и новый блок с фигурными скобками. Этот блок выполнится только если условие в `if` — ложь.
+  Мы добавили `else` и новый блок с фигурными скобками. Этот блок выполнится, только если условие в `if` — ложь.
 
   "Else" переводится «иначе», «в ином случае».
 

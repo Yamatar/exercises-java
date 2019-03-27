@@ -11,7 +11,7 @@ theory: |
   greeting = "Father!";
   ```
 
-  The launch of the program, the above ends with an error:
+  The launch of the program the above ends with an error:
     
   Error: java: cannot find symbol
   symbol: variable greeting

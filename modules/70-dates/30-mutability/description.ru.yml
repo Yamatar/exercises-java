@@ -16,10 +16,19 @@ theory: |
   типа Date можно изменять, не меняя саму ссылку, как в этом примере:
 
   ```java
-  var date = new Date();
-  date.setYear(2000);
-  System.out.print(date);
+  public static void main(String[] args) {
+    var date = new Date();
+    showNextYear(date);
+    System.out.print(date.getYear()); // 2000
+  }
+
+  public static void showNextYear(Date date) {
+    date.setYear(2000);
+    System.out.print(date.getYear()); // 2000
+  }
   ```
+
+  Не делайте так в своих функциях, такой сайд-эффект может очень затруднить отладку. Если нужно провести какие-то вычисления над датой, лучше создайте новый экземпляр Date с новым значением года, месяца, дня и времени - а не меняйте существующий, который пришел в вашу функцию откуда-то извне. Возможны и другие решения.
 
   Будет выведена не текущая дата, как было бы после date = new Date(), а такая же
   дата, но в 2000 году. И хотя мы подаем в print ту же ссылку, что и раньше, изменилось
