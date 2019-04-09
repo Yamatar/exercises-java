@@ -6,7 +6,9 @@ public class App {
         var firstName = "Joffrey";
         var greeting = "Hello";
 
+        // BEGIN
         System.out.print(greeting + ", " + firstName + "!");
         System.out.print(intro + "\n" + info);
+        // END
     }
 }

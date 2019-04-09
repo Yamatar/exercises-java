@@ -1,4 +1,5 @@
 public class App {
+    // BEGIN
     public static boolean doesContain(String str, char symbol) {
         var index = 0;
         while (index < str.length()) {
@@ -10,4 +11,5 @@ public class App {
         }
         return false;
     }
+    // END
 }

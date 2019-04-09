@@ -1,4 +1,5 @@
 public class App {
+    // BEGIN
     public static int countChars(String str, char symbol) {
         var index = str.length() - 1;
         var result = 0;
@@ -11,4 +12,5 @@ public class App {
 
         return result;
     }
+    // END
 }

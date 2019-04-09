@@ -40,6 +40,7 @@ theory: |
   System.out.print(greeting2);
   System.out.print(greeting2);
   ```
+
   For the convenience of program analysis, it is customary to create variables as close as possible to the place where they are used.
 
 instructions: |

@@ -1,4 +1,5 @@
 public class App {
+    // BEGIN
     public static String shouter(String str) {
         var length = str.length();
         var result = "";
@@ -23,4 +24,5 @@ public class App {
         }
         return result;
     }
+    // END
 }

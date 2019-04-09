@@ -25,7 +25,6 @@ theory: |
     }
 
     var divider = 2;
-#почему он был задан как double???
 
     while (divider <= number / 2) {
       if (number % divider == 0) {

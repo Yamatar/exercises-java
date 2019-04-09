@@ -1,37 +1,33 @@
 ---
 
-name: Negation
+name: String Comparison
 theory: |
 
-  Along with the conjunction (**AND**) and the disjunction (**OR**), the operation “**negative**” is often used. Negation changes the logical value to the opposite.
+  For full-fledged work with strings in the examples in this section, you should understand a feature that we will not fully disclose in this course.
 
-  In programming, it corresponds to the unary operator `!`.
+  Namely, the same string value may exist in the program in several instances. If we calculate the value of `"1" + "2"` two times, then we get, of course, two identical values ​​of `"12"`, but these will be exactly two identical values, and not the same (in the computer’s memory in two different places there will be two identical strings).
 
-  If there is a function that checks the parity of a number, then using the negation you can perform oddness checking:
+  And this is important because the operations == and !=, being applied to the lines, check whether the same value is compared. And for two independent lines "12" the result of applying == will be false!
 
-  ```java
-  public static void main(String[] args) {
-    isEven(10);  // => true
-    !isEven(10); // => false
-  }
-  static boolean isEven(int number) {
-    return number % 2 == 0;
-  }
-  ```
+  In fact, you probably should not dive into this topic right now, our lessons are structured in such a way that you do not need a clear understanding of this principle for a long time, it is important to know its specific effect.
 
-  That is, we simply added `!` To the left of the function call and got the opposite effect.
+  Namely, how in this case is it necessary to compare strings by value?
 
-  Denial is a powerful tool that allows you to succinctly express the conceived rules in your code without having to write new functions.
+  To compare str1 and str2, you need to write str1.equals (str2) - this boolean expression verifies that the string str1 and the string str2 have equal values. It can be the same value or two separate equal values.
+
+  The bottom line: the lines should not be compared using ==, but using equals.
+
+  Line inequality, similarly, should be checked not with !=, But as a negation of equality, using the logical negation operator: !str.equals(str2).
+
+  In previous lessons, it is mentioned that extracting a character from a string by its index returns a value of type "character", not "string". It is necessary in this connection to keep in mind two facts:
+
+   1) comparing a character and a string through equals always gives an inequality,
+
+   2) characters can be compared with each other by ==, in this sense, characters are closer to numbers than to lines.
 
 instructions: |
 
-  Implement the `App.isNotLannisterSoldier` function, which checks that the soldier is not a Lannister. The function accepts the input of the same arguments as the function `isLannisterSoldier`:
-
-  1. The color of the armor (string). If the armor is red, then the string `red`.
-  2. `null` if there is no shield. The string `lion` if there is a shield, and on it is a lion.
-
-  You can use the ready-to-use function `Functions.isLannisterSoldier`. You can use it to not write all the logical conditions again.
+  Write a function `isMister`, which takes a string and checks whether it is the word `"Mister"`.
 
 tips:
-  - |
-    [Laws of De Morgan] (https://ru.wikipedia.org/wiki/Laws_de_Morgana)
+  - []

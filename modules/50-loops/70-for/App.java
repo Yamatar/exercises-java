@@ -1,4 +1,5 @@
 public class App {
+    // BEGIN
     public static int sumOfSeries(int start, int finish) {
         /*
          * Обратите внимание: мы создали новую переменную,
@@ -19,4 +20,5 @@ public class App {
 
         return sum;
     }
+    // END
 }

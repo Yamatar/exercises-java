@@ -22,6 +22,13 @@ theory: |
   System.out.print(firstName.charAt(index)); // => A
   ```
 
+  Although the character is not a string, the concatenation operation (+) can work if one of the arguments is a character. It will make a string of it and compute it as a concatenation of two strings. But don't try to concatenate characters with each other, not with a string - the Java compiler will decide that you want to add the numeric codes of these characters, and the result will be some number.
+
+  ```java
+  System.out.print('H' + 'A'); // => 137
+  System.out.print('H' + " " + 'A');  // => "H A"
+  ```
+
 instructions: |
 
   You are given three variables with the names of different people. Compose and display a word of characters in this order:
@@ -31,5 +38,7 @@ instructions: |
   3. the fourth character from the third line;
   4. the fifth character from the second line;
   5. the third character from the second line.
+
+  The output should be something like this: "a b c d e"
 
 tips: []

@@ -1,4 +1,5 @@
 public class App {
+    // BEGIN
     public static String filterString(String str, char symbol) {
         var index = 0;
         var length = str.length();
@@ -13,4 +14,5 @@ public class App {
 
         return result;
     }
+    // END
 }
