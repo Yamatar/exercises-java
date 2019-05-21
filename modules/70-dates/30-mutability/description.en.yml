@@ -18,13 +18,14 @@ theory: |
   ```java
   public static void main(String[] args) {
     var date = new Date();
+    System.out.print(date.getYear())  // 2019
     showNextYear(date);
-    System.out.print(date.getYear()); // 2000
+    System.out.print(date.getYear()); // 2020
   }
 
   public static void showNextYear(Date date) {
-    date.setYear(2000);
-    System.out.print(date.getYear()); // 2000
+    date.setYear(date.getYear() + 1);
+    System.out.print(date.getYear()); // 2020
   }
   ```
 
@@ -47,7 +48,7 @@ theory: |
 
 instructions: |
 
-  Create the date variable, then set it to increase year and output the date in the format `dd/mm/yyyy`.
+  Create the date variable, then set it 2000 year and output the date in the format `dd/mm/yyyy`.
 
 tips:
   - []

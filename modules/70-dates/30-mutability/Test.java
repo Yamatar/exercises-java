@@ -7,7 +7,7 @@ import java.io.*;
 class Test {
     public static void main(String[] args) {
         var date = new Date();
-        date.setYear(date.getYear() + 1);
+        date.setYear(2000);
         SimpleDateFormat format1 = new SimpleDateFormat("dd/MM/yyyy");
 
         final var expected = format1.format(date);

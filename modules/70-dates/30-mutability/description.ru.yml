@@ -18,13 +18,14 @@ theory: |
   ```java
   public static void main(String[] args) {
     var date = new Date();
+    System.out.print(date.getYear())  // 2019
     showNextYear(date);
-    System.out.print(date.getYear()); // 2000
+    System.out.print(date.getYear()); // 2020
   }
 
   public static void showNextYear(Date date) {
-    date.setYear(2000);
-    System.out.print(date.getYear()); // 2000
+    date.setYear(date.getYear() + 1);
+    System.out.print(date.getYear()); // 2020
   }
   ```
 
@@ -47,7 +48,7 @@ theory: |
 
 instructions: |
 
-  Создайте переменную date, затем поставьте увеличьте ей год на 1 и выведите дату в формате `dd/mm/yyyy`.
+  Создайте переменную date, затем поставьте ей 2000 год и выведите дату в формате `dd/mm/yyyy`.
 
 tips:
   - []
